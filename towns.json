@@ -1,0 +1,272 @@
+[
+  {
+    "town": "Pittsburg",
+    "state": "TX",
+    "slug": "pittsburg-tx",
+    "published": false
+  },
+  {
+    "town": "Mount Pleasant",
+    "state": "TX",
+    "slug": "mount-pleasant-tx",
+    "published": false
+  },
+  {
+    "town": "Sulphur Springs",
+    "state": "TX",
+    "slug": "sulphur-springs-tx",
+    "published": false
+  },
+  {
+    "town": "Texarkana",
+    "state": "TX",
+    "slug": "texarkana-tx",
+    "published": false
+  },
+  {
+    "town": "Longview",
+    "state": "TX",
+    "slug": "longview-tx",
+    "published": false
+  },
+  {
+    "town": "Tyler",
+    "state": "TX",
+    "slug": "tyler-tx",
+    "published": false
+  },
+  {
+    "town": "Gilmer",
+    "state": "TX",
+    "slug": "gilmer-tx",
+    "published": false
+  },
+  {
+    "town": "Daingerfield",
+    "state": "TX",
+    "slug": "daingerfield-tx",
+    "published": false
+  },
+  {
+    "town": "Linden",
+    "state": "TX",
+    "slug": "linden-tx",
+    "published": false
+  },
+  {
+    "town": "Mineola",
+    "state": "TX",
+    "slug": "mineola-tx",
+    "published": false
+  },
+  {
+    "town": "Quitman",
+    "state": "TX",
+    "slug": "quitman-tx",
+    "published": false
+  },
+  {
+    "town": "Winnsboro",
+    "state": "TX",
+    "slug": "winnsboro-tx",
+    "published": false
+  },
+  {
+    "town": "Hawkins",
+    "state": "TX",
+    "slug": "hawkins-tx",
+    "published": false
+  },
+  {
+    "town": "Big Sandy",
+    "state": "TX",
+    "slug": "big-sandy-tx",
+    "published": false
+  },
+  {
+    "town": "Gladewater",
+    "state": "TX",
+    "slug": "gladewater-tx",
+    "published": false
+  },
+  {
+    "town": "Kilgore",
+    "state": "TX",
+    "slug": "kilgore-tx",
+    "published": false
+  },
+  {
+    "town": "Henderson",
+    "state": "TX",
+    "slug": "henderson-tx",
+    "published": false
+  },
+  {
+    "town": "Marshall",
+    "state": "TX",
+    "slug": "marshall-tx",
+    "published": false
+  },
+  {
+    "town": "Jefferson",
+    "state": "TX",
+    "slug": "jefferson-tx",
+    "published": false
+  },
+  {
+    "town": "Atlanta",
+    "state": "TX",
+    "slug": "atlanta-tx",
+    "published": false
+  },
+  {
+    "town": "New Boston",
+    "state": "TX",
+    "slug": "new-boston-tx",
+    "published": false
+  },
+  {
+    "town": "Clarksville",
+    "state": "TX",
+    "slug": "clarksville-tx",
+    "published": false
+  },
+  {
+    "town": "Paris",
+    "state": "TX",
+    "slug": "paris-tx",
+    "published": false
+  },
+  {
+    "town": "Commerce",
+    "state": "TX",
+    "slug": "commerce-tx",
+    "published": false
+  },
+  {
+    "town": "Greenville",
+    "state": "TX",
+    "slug": "greenville-tx",
+    "published": false
+  },
+  {
+    "town": "Canton",
+    "state": "TX",
+    "slug": "canton-tx",
+    "published": false
+  },
+  {
+    "town": "Athens",
+    "state": "TX",
+    "slug": "athens-tx",
+    "published": false
+  },
+  {
+    "town": "Carthage",
+    "state": "TX",
+    "slug": "carthage-tx",
+    "published": false
+  },
+  {
+    "town": "Center",
+    "state": "TX",
+    "slug": "center-tx",
+    "published": false
+  },
+  {
+    "town": "Nacogdoches",
+    "state": "TX",
+    "slug": "nacogdoches-tx",
+    "published": false
+  },
+  {
+    "town": "Texarkana",
+    "state": "AR",
+    "slug": "texarkana-ar",
+    "published": false
+  },
+  {
+    "town": "Hope",
+    "state": "AR",
+    "slug": "hope-ar",
+    "published": false
+  },
+  {
+    "town": "Magnolia",
+    "state": "AR",
+    "slug": "magnolia-ar",
+    "published": false
+  },
+  {
+    "town": "Hot Springs",
+    "state": "AR",
+    "slug": "hot-springs-ar",
+    "published": false
+  },
+  {
+    "town": "Ashdown",
+    "state": "AR",
+    "slug": "ashdown-ar",
+    "published": false
+  },
+  {
+    "town": "Shreveport",
+    "state": "LA",
+    "slug": "shreveport-la",
+    "published": false
+  },
+  {
+    "town": "Bossier City",
+    "state": "LA",
+    "slug": "bossier-city-la",
+    "published": false
+  },
+  {
+    "town": "Minden",
+    "state": "LA",
+    "slug": "minden-la",
+    "published": false
+  },
+  {
+    "town": "Mansfield",
+    "state": "LA",
+    "slug": "mansfield-la",
+    "published": false
+  },
+  {
+    "town": "Many",
+    "state": "LA",
+    "slug": "many-la",
+    "published": false
+  },
+  {
+    "town": "Idabel",
+    "state": "OK",
+    "slug": "idabel-ok",
+    "published": false
+  },
+  {
+    "town": "Broken Bow",
+    "state": "OK",
+    "slug": "broken-bow-ok",
+    "published": false
+  },
+  {
+    "town": "Hugo",
+    "state": "OK",
+    "slug": "hugo-ok",
+    "published": false
+  },
+  {
+    "town": "Antlers",
+    "state": "OK",
+    "slug": "antlers-ok",
+    "published": false
+  },
+  {
+    "town": "Durant",
+    "state": "OK",
+    "slug": "durant-ok",
+    "published": false
+  }
+]

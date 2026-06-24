@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Virtual Starlink Consultation",
+    "categories": [
+      "Starlink & Connectivity"
+    ],
+    "short_description": "Expert virtual consultation for Starlink Gen 3 and Mini systems \u2014 ideal for rural homeowners, RV travelers, and farmers across East Texas, Southwest Arkansas, Northwest Louisiana, and Southeast Oklahoma."
+  },
+  {
+    "name": "Electrical Troubleshooting",
+    "categories": [
+      "Electrical Services"
+    ],
+    "short_description": "Professional electrical troubleshooting and installation in East Texas."
+  },
+  {
+    "name": "Light Fixture Installation",
+    "categories": [
+      "Electrical Services"
+    ],
+    "short_description": "Professional light fixture installation including mounting and secure wiring to your existing junction box."
+  },
+  {
+    "name": "Smart Home Device Setup",
+    "categories": [
+      "Smart Home & Security"
+    ],
+    "short_description": "Setup and network integration for smart home devices including smart plugs, smart switches, Alexa and Google Home hubs, and automated lighting systems."
+  },
+  {
+    "name": "Starlink Ground Pole Mount",
+    "categories": [
+      "Starlink & Connectivity"
+    ],
+    "short_description": "Custom ground pole installation for Starlink dishes requiring a clear line of sight \u2014 perfect for East Texas properties with trees, barns, or obstructed rooftops."
+  },
+  {
+    "name": "Wi-Fi Mesh & Network Extension",
+    "categories": [
+      "Networking & Wi-Fi"
+    ],
+    "short_description": "Eliminate Wi-Fi dead zones permanently with a professionally configured mesh network."
+  },
+  {
+    "name": "Ethernet Drop (Cat6)",
+    "categories": [
+      "Networking & Wi-Fi"
+    ],
+    "short_description": "Hardwired Cat6 ethernet run through walls, attic, or crawl space for a single device \u2014 gaming systems, desktop PCs, smart TVs, or network equipment."
+  },
+  {
+    "name": "Smart Doorbell/Security Camera Install",
+    "categories": [
+      "Smart Home & Security"
+    ],
+    "short_description": "Professional mounting, wiring, and mobile app configuration for Ring, Google Nest, and Arlo security cameras and video doorbells."
+  },
+  {
+    "name": "Outlet & Switch Upgrade",
+    "categories": [
+      "Electrical Services"
+    ],
+    "short_description": "Outlet and switch upgrades replacing outdated units with modern USB-A/C combo outlets, GFCI safety outlets, or contemporary rocker switches."
+  },
+  {
+    "name": "Smart Lock & Keyless Entry Install",
+    "categories": [
+      "Smart Home & Security"
+    ],
+    "short_description": "Physical deadbolt removal, smart lock installation, and complete mobile app configuration for Schlage, Kwikset, Yale, and August smart locks."
+  },
+  {
+    "name": "Floodlight & Security Lighting",
+    "categories": [
+      "Electrical Services",
+      "Smart Home & Security"
+    ],
+    "short_description": "Hardwired installation of exterior security floodlights and motion-activated lighting for driveways, garages, and property perimeters."
+  },
+  {
+    "name": "Ceiling Fan Installation",
+    "categories": [
+      "Electrical Services"
+    ],
+    "short_description": "Complete ceiling fan assembly and secure mounting by an experienced East Texas handyman."
+  },
+  {
+    "name": "Starlink Installation",
+    "categories": [
+      "Starlink & Connectivity"
+    ],
+    "short_description": "Professional Starlink installation for your home, RV, or rural property."
+  },
+  {
+    "name": "TV Mounting & Cable Concealment",
+    "categories": [
+      "Home Theater & Mounting"
+    ],
+    "short_description": "Professional TV mounting with fully concealed cabling \u2014 no power cords or HDMI cables hanging down your wall."
+  },
+  {
+    "name": "Whole-Home Surge Protection",
+    "categories": [
+      "Electrical Services"
+    ],
+    "short_description": "Panel-mounted whole-home surge protector installation to protect every outlet and device in your house from power surges \u2014 including the smart home gear, network equipment, and electronics you've already invested in."
+  },
+  {
+    "name": "Cellular Signal Booster Install",
+    "categories": [
+      "Networking & Wi-Fi"
+    ],
+    "short_description": "Cellular signal booster installation (weBoost, SureCall) to eliminate dropped calls and slow data in rural East Texas dead zones."
+  },
+  {
+    "name": "RV Shore Power & Surge Protection Setup",
+    "categories": [
+      "RV Services"
+    ],
+    "short_description": "Shore power connection setup and surge protection installation for your RV \u2014 at your home base, a permanent site, or a rural property."
+  },
+  {
+    "name": "Smart Thermostat Installation",
+    "categories": [
+      "Smart Home & Security"
+    ],
+    "short_description": "Smart thermostat installation and mobile app setup for Nest, Ecobee, and Honeywell systems."
+  },
+  {
+    "name": "Home Network Diagnostic Visit",
+    "categories": [
+      "Networking & Wi-Fi"
+    ],
+    "short_description": "In-person diagnostic visit for ongoing internet or Wi-Fi problems that need hands-on troubleshooting rather than a new installation."
+  },
+  {
+    "name": "RV Pre-Trip / Pre-Purchase Inspection",
+    "categories": [
+      "RV Services"
+    ],
+    "short_description": "A thorough walk-through of your RV's critical systems before a big trip or before you buy a used rig."
+  },
+  {
+    "name": "RV Electrical Diagnostic & Repair",
+    "categories": [
+      "RV Services"
+    ],
+    "short_description": "Troubleshooting and repair for RV electrical issues \u2014 dead batteries, converter problems, 12V or 120V systems not working, outlets and breakers acting up inside your rig."
+  },
+  {
+    "name": "RV Solar & Battery Consultation",
+    "categories": [
+      "RV Services"
+    ],
+    "short_description": "An on-site consultation to evaluate your RV's power needs and map out a solar and battery setup that actually fits how you use your rig \u2014 boondocking, seasonal travel, or full-time off-grid living."
+  },
+  {
+    "name": "RV Connectivity Bundle (Starlink + Cellular Booster)",
+    "categories": [
+      "RV Services"
+    ],
+    "short_description": "Complete RV internet setup in one visit \u2014 Starlink installation paired with a cellular signal booster for redundant, reliable connectivity wherever you park."
+  }
+]
