@@ -495,7 +495,7 @@ def regenerate_sitemap(towns):
 def regenerate_index(towns):
     published = [t for t in towns if t.get("published")]
     items = "\n".join(
-        f'      <li><a href="/locations/{t["slug"]}/">{t["town"]}, {t["state"]}</a></li>'
+        f'<li><a href="locations/{t["slug"]}/">{t["town"]}, {t["state"]}</a></li>\n'
         for t in published
     )
     html = f"""<!DOCTYPE html>
