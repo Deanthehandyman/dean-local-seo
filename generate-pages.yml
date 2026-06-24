@@ -1,0 +1,42 @@
+name: Generate Local SEO Pages
+
+on:
+  schedule:
+    # Every Monday at 13:00 UTC (8am Central)
+    - cron: '0 13 * * 1'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate pages
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: python3 scripts/generate_page.py
+
+      - name: Ping IndexNow
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        run: python3 scripts/ping_indexnow.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --quiet --cached || git commit -m "Auto-generate local SEO pages"
+          git push
