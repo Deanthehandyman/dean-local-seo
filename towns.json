@@ -17,13 +17,15 @@
     "town": "Sulphur Springs",
     "state": "TX",
     "slug": "sulphur-springs-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T03:57:10.017939+00:00"
   },
   {
     "town": "Texarkana",
     "state": "TX",
     "slug": "texarkana-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T03:57:10.083977+00:00"
   },
   {
     "town": "Longview",
