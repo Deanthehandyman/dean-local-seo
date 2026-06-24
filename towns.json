@@ -185,55 +185,64 @@
     "town": "Athens",
     "state": "TX",
     "slug": "athens-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T21:14:20.064574+00:00"
   },
   {
     "town": "Carthage",
     "state": "TX",
     "slug": "carthage-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T21:14:20.080813+00:00"
   },
   {
     "town": "Center",
     "state": "TX",
     "slug": "center-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T21:14:20.093516+00:00"
   },
   {
     "town": "Nacogdoches",
     "state": "TX",
     "slug": "nacogdoches-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T21:14:20.107596+00:00"
   },
   {
     "town": "Texarkana",
     "state": "AR",
     "slug": "texarkana-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T21:14:20.131830+00:00"
   },
   {
     "town": "Hope",
     "state": "AR",
     "slug": "hope-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T21:14:20.146539+00:00"
   },
   {
     "town": "Magnolia",
     "state": "AR",
     "slug": "magnolia-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T21:14:20.159722+00:00"
   },
   {
     "town": "Hot Springs",
     "state": "AR",
     "slug": "hot-springs-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T21:14:20.175574+00:00"
   },
   {
     "town": "Ashdown",
     "state": "AR",
     "slug": "ashdown-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T21:14:20.193792+00:00"
   },
   {
     "town": "Shreveport",
