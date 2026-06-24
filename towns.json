@@ -122,55 +122,64 @@
     "town": "Marshall",
     "state": "TX",
     "slug": "marshall-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T18:51:21.969715+00:00"
   },
   {
     "town": "Jefferson",
     "state": "TX",
     "slug": "jefferson-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T18:51:21.983440+00:00"
   },
   {
     "town": "Atlanta",
     "state": "TX",
     "slug": "atlanta-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T18:51:22.017338+00:00"
   },
   {
     "town": "New Boston",
     "state": "TX",
     "slug": "new-boston-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T18:51:22.046411+00:00"
   },
   {
     "town": "Clarksville",
     "state": "TX",
     "slug": "clarksville-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T18:51:22.068391+00:00"
   },
   {
     "town": "Paris",
     "state": "TX",
     "slug": "paris-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T18:51:22.089581+00:00"
   },
   {
     "town": "Commerce",
     "state": "TX",
     "slug": "commerce-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T18:51:22.112578+00:00"
   },
   {
     "town": "Greenville",
     "state": "TX",
     "slug": "greenville-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T18:51:22.128213+00:00"
   },
   {
     "town": "Canton",
     "state": "TX",
     "slug": "canton-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T18:51:22.142911+00:00"
   },
   {
     "town": "Athens",
