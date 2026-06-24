@@ -3,64 +3,64 @@
     "town": "Pittsburg",
     "state": "TX",
     "slug": "pittsburg-tx",
-    "published": false,
-    "published_at": "2026-06-24T03:18:07.458353+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:26:02.617867+00:00"
   },
   {
     "town": "Mount Pleasant",
     "state": "TX",
     "slug": "mount-pleasant-tx",
-    "published": false,
-    "published_at": "2026-06-24T03:18:07.494400+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:26:02.633598+00:00"
   },
   {
     "town": "Sulphur Springs",
     "state": "TX",
     "slug": "sulphur-springs-tx",
-    "published": false,
-    "published_at": "2026-06-24T03:57:10.017939+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:26:02.647602+00:00"
   },
   {
     "town": "Texarkana",
     "state": "TX",
     "slug": "texarkana-tx",
-    "published": false,
-    "published_at": "2026-06-24T03:57:10.083977+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:26:02.660833+00:00"
   },
   {
     "town": "Longview",
     "state": "TX",
     "slug": "longview-tx",
-    "published": false,
-    "published_at": "2026-06-24T04:24:36.286585+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:26:02.675876+00:00"
   },
   {
     "town": "Tyler",
     "state": "TX",
     "slug": "tyler-tx",
-    "published": false,
-    "published_at": "2026-06-24T04:24:36.303386+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:26:02.691195+00:00"
   },
   {
     "town": "Gilmer",
     "state": "TX",
     "slug": "gilmer-tx",
-    "published": false,
-    "published_at": "2026-06-24T04:41:51.663006+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:26:02.730521+00:00"
   },
   {
     "town": "Daingerfield",
     "state": "TX",
     "slug": "daingerfield-tx",
-    "published": false,
-    "published_at": "2026-06-24T04:41:51.676473+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:26:02.746699+00:00"
   },
   {
     "town": "Linden",
     "state": "TX",
     "slug": "linden-tx",
-    "published": false,
-    "published_at": "2026-06-24T17:46:21.636034+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:26:02.759310+00:00"
   },
   {
     "town": "Mineola",
