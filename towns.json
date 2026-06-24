@@ -66,64 +66,64 @@
     "town": "Mineola",
     "state": "TX",
     "slug": "mineola-tx",
-    "published": false,
-    "published_at": "2026-06-24T17:46:21.647990+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:28:35.603330+00:00"
   },
   {
     "town": "Quitman",
     "state": "TX",
     "slug": "quitman-tx",
-    "published": false,
-    "published_at": "2026-06-24T17:46:21.659499+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:28:35.616688+00:00"
   },
   {
     "town": "Winnsboro",
     "state": "TX",
     "slug": "winnsboro-tx",
-    "published": false,
-    "published_at": "2026-06-24T17:46:21.675419+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:28:35.630565+00:00"
   },
   {
     "town": "Hawkins",
     "state": "TX",
     "slug": "hawkins-tx",
-    "published": false,
-    "published_at": "2026-06-24T17:46:21.689428+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:28:35.645988+00:00"
   },
   {
     "town": "Big Sandy",
     "state": "TX",
     "slug": "big-sandy-tx",
-    "published": false,
-    "published_at": "2026-06-24T17:46:21.708175+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:28:35.661295+00:00"
   },
   {
     "town": "Gladewater",
     "state": "TX",
     "slug": "gladewater-tx",
-    "published": false,
-    "published_at": "2026-06-24T17:46:21.724388+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:28:35.678561+00:00"
   },
   {
     "town": "Kilgore",
     "state": "TX",
     "slug": "kilgore-tx",
-    "published": false,
-    "published_at": "2026-06-24T17:46:21.737922+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:28:35.689784+00:00"
   },
   {
     "town": "Henderson",
     "state": "TX",
     "slug": "henderson-tx",
-    "published": false,
-    "published_at": "2026-06-24T17:46:21.750194+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:28:35.709150+00:00"
   },
   {
     "town": "Marshall",
     "state": "TX",
     "slug": "marshall-tx",
-    "published": false,
-    "published_at": "2026-06-24T18:51:21.969715+00:00"
+    "published": true,
+    "published_at": "2026-06-24T21:28:35.730430+00:00"
   },
   {
     "town": "Jefferson",
@@ -304,59 +304,334 @@
     "slug": "durant-ok",
     "published": false
   },
-  {"town": "Jacksonville", "state": "TX", "slug": "jacksonville-tx", "published": false},
-  {"town": "Palestine", "state": "TX", "slug": "palestine-tx", "published": false},
-  {"town": "Rusk", "state": "TX", "slug": "rusk-tx", "published": false},
-  {"town": "Crockett", "state": "TX", "slug": "crockett-tx", "published": false},
-  {"town": "Lufkin", "state": "TX", "slug": "lufkin-tx", "published": false},
-  {"town": "Mount Vernon", "state": "TX", "slug": "mount-vernon-tx", "published": false},
-  {"town": "Bogata", "state": "TX", "slug": "bogata-tx", "published": false},
-  {"town": "Talco", "state": "TX", "slug": "talco-tx", "published": false},
-  {"town": "Hughes Springs", "state": "TX", "slug": "hughes-springs-tx", "published": false},
-  {"town": "Avinger", "state": "TX", "slug": "avinger-tx", "published": false},
-  {"town": "Ore City", "state": "TX", "slug": "ore-city-tx", "published": false},
-  {"town": "Diana", "state": "TX", "slug": "diana-tx", "published": false},
-  {"town": "Harleton", "state": "TX", "slug": "harleton-tx", "published": false},
-  {"town": "Waskom", "state": "TX", "slug": "waskom-tx", "published": false},
-  {"town": "Tatum", "state": "TX", "slug": "tatum-tx", "published": false},
-  {"town": "Beckville", "state": "TX", "slug": "beckville-tx", "published": false},
-  {"town": "Tenaha", "state": "TX", "slug": "tenaha-tx", "published": false},
-  {"town": "Timpson", "state": "TX", "slug": "timpson-tx", "published": false},
-  {"town": "San Augustine", "state": "TX", "slug": "san-augustine-tx", "published": false},
-  {"town": "Woodville", "state": "TX", "slug": "woodville-tx", "published": false},
-  {"town": "Jasper", "state": "TX", "slug": "jasper-tx", "published": false},
-  {"town": "Bullard", "state": "TX", "slug": "bullard-tx", "published": false},
-  {"town": "Whitehouse", "state": "TX", "slug": "whitehouse-tx", "published": false},
-  {"town": "Troup", "state": "TX", "slug": "troup-tx", "published": false},
-  {"town": "Arp", "state": "TX", "slug": "arp-tx", "published": false},
-  {"town": "Overton", "state": "TX", "slug": "overton-tx", "published": false},
-  {"town": "Lindale", "state": "TX", "slug": "lindale-tx", "published": false},
-  {"town": "Grand Saline", "state": "TX", "slug": "grand-saline-tx", "published": false},
-  {"town": "Edgewood", "state": "TX", "slug": "edgewood-tx", "published": false},
-  {"town": "Wills Point", "state": "TX", "slug": "wills-point-tx", "published": false},
-  {"town": "Emory", "state": "TX", "slug": "emory-tx", "published": false},
-  {"town": "Alba", "state": "TX", "slug": "alba-tx", "published": false},
-  {"town": "Yantis", "state": "TX", "slug": "yantis-tx", "published": false},
-  {"town": "Como", "state": "TX", "slug": "como-tx", "published": false},
-  {"town": "Cooper", "state": "TX", "slug": "cooper-tx", "published": false},
-  {"town": "Honey Grove", "state": "TX", "slug": "honey-grove-tx", "published": false},
-  {"town": "Bonham", "state": "TX", "slug": "bonham-tx", "published": false},
-  {"town": "Detroit", "state": "TX", "slug": "detroit-tx", "published": false},
-  {"town": "Avery", "state": "TX", "slug": "avery-tx", "published": false},
-  {"town": "De Kalb", "state": "TX", "slug": "de-kalb-tx", "published": false},
-  {"town": "Maud", "state": "TX", "slug": "maud-tx", "published": false},
-  {"town": "Hooks", "state": "TX", "slug": "hooks-tx", "published": false},
-  {"town": "Naples", "state": "TX", "slug": "naples-tx", "published": false},
-  {"town": "Omaha", "state": "TX", "slug": "omaha-tx", "published": false},
-  {"town": "De Queen", "state": "AR", "slug": "de-queen-ar", "published": false},
-  {"town": "Mena", "state": "AR", "slug": "mena-ar", "published": false},
-  {"town": "Arkadelphia", "state": "AR", "slug": "arkadelphia-ar", "published": false},
-  {"town": "Prescott", "state": "AR", "slug": "prescott-ar", "published": false},
-  {"town": "Camden", "state": "AR", "slug": "camden-ar", "published": false},
-  {"town": "El Dorado", "state": "AR", "slug": "el-dorado-ar", "published": false},
-  {"town": "Springhill", "state": "LA", "slug": "springhill-la", "published": false},
-  {"town": "Ruston", "state": "LA", "slug": "ruston-la", "published": false},
-  {"town": "Natchitoches", "state": "LA", "slug": "natchitoches-la", "published": false},
-  {"town": "Valliant", "state": "OK", "slug": "valliant-ok", "published": false},
-  {"town": "Atoka", "state": "OK", "slug": "atoka-ok", "published": false}
+  {
+    "town": "Jacksonville",
+    "state": "TX",
+    "slug": "jacksonville-tx",
+    "published": false
+  },
+  {
+    "town": "Palestine",
+    "state": "TX",
+    "slug": "palestine-tx",
+    "published": false
+  },
+  {
+    "town": "Rusk",
+    "state": "TX",
+    "slug": "rusk-tx",
+    "published": false
+  },
+  {
+    "town": "Crockett",
+    "state": "TX",
+    "slug": "crockett-tx",
+    "published": false
+  },
+  {
+    "town": "Lufkin",
+    "state": "TX",
+    "slug": "lufkin-tx",
+    "published": false
+  },
+  {
+    "town": "Mount Vernon",
+    "state": "TX",
+    "slug": "mount-vernon-tx",
+    "published": false
+  },
+  {
+    "town": "Bogata",
+    "state": "TX",
+    "slug": "bogata-tx",
+    "published": false
+  },
+  {
+    "town": "Talco",
+    "state": "TX",
+    "slug": "talco-tx",
+    "published": false
+  },
+  {
+    "town": "Hughes Springs",
+    "state": "TX",
+    "slug": "hughes-springs-tx",
+    "published": false
+  },
+  {
+    "town": "Avinger",
+    "state": "TX",
+    "slug": "avinger-tx",
+    "published": false
+  },
+  {
+    "town": "Ore City",
+    "state": "TX",
+    "slug": "ore-city-tx",
+    "published": false
+  },
+  {
+    "town": "Diana",
+    "state": "TX",
+    "slug": "diana-tx",
+    "published": false
+  },
+  {
+    "town": "Harleton",
+    "state": "TX",
+    "slug": "harleton-tx",
+    "published": false
+  },
+  {
+    "town": "Waskom",
+    "state": "TX",
+    "slug": "waskom-tx",
+    "published": false
+  },
+  {
+    "town": "Tatum",
+    "state": "TX",
+    "slug": "tatum-tx",
+    "published": false
+  },
+  {
+    "town": "Beckville",
+    "state": "TX",
+    "slug": "beckville-tx",
+    "published": false
+  },
+  {
+    "town": "Tenaha",
+    "state": "TX",
+    "slug": "tenaha-tx",
+    "published": false
+  },
+  {
+    "town": "Timpson",
+    "state": "TX",
+    "slug": "timpson-tx",
+    "published": false
+  },
+  {
+    "town": "San Augustine",
+    "state": "TX",
+    "slug": "san-augustine-tx",
+    "published": false
+  },
+  {
+    "town": "Woodville",
+    "state": "TX",
+    "slug": "woodville-tx",
+    "published": false
+  },
+  {
+    "town": "Jasper",
+    "state": "TX",
+    "slug": "jasper-tx",
+    "published": false
+  },
+  {
+    "town": "Bullard",
+    "state": "TX",
+    "slug": "bullard-tx",
+    "published": false
+  },
+  {
+    "town": "Whitehouse",
+    "state": "TX",
+    "slug": "whitehouse-tx",
+    "published": false
+  },
+  {
+    "town": "Troup",
+    "state": "TX",
+    "slug": "troup-tx",
+    "published": false
+  },
+  {
+    "town": "Arp",
+    "state": "TX",
+    "slug": "arp-tx",
+    "published": false
+  },
+  {
+    "town": "Overton",
+    "state": "TX",
+    "slug": "overton-tx",
+    "published": false
+  },
+  {
+    "town": "Lindale",
+    "state": "TX",
+    "slug": "lindale-tx",
+    "published": false
+  },
+  {
+    "town": "Grand Saline",
+    "state": "TX",
+    "slug": "grand-saline-tx",
+    "published": false
+  },
+  {
+    "town": "Edgewood",
+    "state": "TX",
+    "slug": "edgewood-tx",
+    "published": false
+  },
+  {
+    "town": "Wills Point",
+    "state": "TX",
+    "slug": "wills-point-tx",
+    "published": false
+  },
+  {
+    "town": "Emory",
+    "state": "TX",
+    "slug": "emory-tx",
+    "published": false
+  },
+  {
+    "town": "Alba",
+    "state": "TX",
+    "slug": "alba-tx",
+    "published": false
+  },
+  {
+    "town": "Yantis",
+    "state": "TX",
+    "slug": "yantis-tx",
+    "published": false
+  },
+  {
+    "town": "Como",
+    "state": "TX",
+    "slug": "como-tx",
+    "published": false
+  },
+  {
+    "town": "Cooper",
+    "state": "TX",
+    "slug": "cooper-tx",
+    "published": false
+  },
+  {
+    "town": "Honey Grove",
+    "state": "TX",
+    "slug": "honey-grove-tx",
+    "published": false
+  },
+  {
+    "town": "Bonham",
+    "state": "TX",
+    "slug": "bonham-tx",
+    "published": false
+  },
+  {
+    "town": "Detroit",
+    "state": "TX",
+    "slug": "detroit-tx",
+    "published": false
+  },
+  {
+    "town": "Avery",
+    "state": "TX",
+    "slug": "avery-tx",
+    "published": false
+  },
+  {
+    "town": "De Kalb",
+    "state": "TX",
+    "slug": "de-kalb-tx",
+    "published": false
+  },
+  {
+    "town": "Maud",
+    "state": "TX",
+    "slug": "maud-tx",
+    "published": false
+  },
+  {
+    "town": "Hooks",
+    "state": "TX",
+    "slug": "hooks-tx",
+    "published": false
+  },
+  {
+    "town": "Naples",
+    "state": "TX",
+    "slug": "naples-tx",
+    "published": false
+  },
+  {
+    "town": "Omaha",
+    "state": "TX",
+    "slug": "omaha-tx",
+    "published": false
+  },
+  {
+    "town": "De Queen",
+    "state": "AR",
+    "slug": "de-queen-ar",
+    "published": false
+  },
+  {
+    "town": "Mena",
+    "state": "AR",
+    "slug": "mena-ar",
+    "published": false
+  },
+  {
+    "town": "Arkadelphia",
+    "state": "AR",
+    "slug": "arkadelphia-ar",
+    "published": false
+  },
+  {
+    "town": "Prescott",
+    "state": "AR",
+    "slug": "prescott-ar",
+    "published": false
+  },
+  {
+    "town": "Camden",
+    "state": "AR",
+    "slug": "camden-ar",
+    "published": false
+  },
+  {
+    "town": "El Dorado",
+    "state": "AR",
+    "slug": "el-dorado-ar",
+    "published": false
+  },
+  {
+    "town": "Springhill",
+    "state": "LA",
+    "slug": "springhill-la",
+    "published": false
+  },
+  {
+    "town": "Ruston",
+    "state": "LA",
+    "slug": "ruston-la",
+    "published": false
+  },
+  {
+    "town": "Natchitoches",
+    "state": "LA",
+    "slug": "natchitoches-la",
+    "published": false
+  },
+  {
+    "town": "Valliant",
+    "state": "OK",
+    "slug": "valliant-ok",
+    "published": false
+  },
+  {
+    "town": "Atoka",
+    "state": "OK",
+    "slug": "atoka-ok",
+    "published": false
+  }
 ]
