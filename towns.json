@@ -3,13 +3,15 @@
     "town": "Pittsburg",
     "state": "TX",
     "slug": "pittsburg-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T03:18:07.458353+00:00"
   },
   {
     "town": "Mount Pleasant",
     "state": "TX",
     "slug": "mount-pleasant-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-24T03:18:07.494400+00:00"
   },
   {
     "town": "Sulphur Springs",
