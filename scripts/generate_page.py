@@ -29,6 +29,7 @@ LOCATIONS_DIR = ROOT / "locations"
 SITE_URL = os.environ.get("SITE_URL", "https://CHANGE-ME.netlify.app")
 PAGES_PER_RUN = int(os.environ.get("PAGES_PER_RUN", "2"))
 BOOKING_URL = "https://deanshandymanservice.square.site"
+DIRECT_BOOKING_URL = "https://book.squareup.com/appointments/6adhz55czkh9i7/location/LRQVC65X9CQJK/services?buttonTextColor=ffffff&color=0019ff&locale=en&referrer=so&team_member_id=TM41qxXARrQWpS86"
 
 PHONE = "281-917-9914"
 BUSINESS_NAME = "Dean's Handyman Service LLC"
@@ -124,7 +125,7 @@ def fallback_copy(town, state):
 
 def render_html(town, state, slug, copy, services_subset):
     service_items = "\n".join(
-        f"""        <div class="service-card">
+        f"""        <div class="service-block">
           <h3>{s['name']}</h3>
           <p>{s['short_description']}</p>
         </div>"""
@@ -142,6 +143,7 @@ def render_html(town, state, slug, copy, services_subset):
 <meta property="og:title" content="{copy['title']}">
 <meta property="og:description" content="{copy['meta_description']}">
 <meta property="og:type" content="website">
+<meta name="theme-color" content="#0019ff">
 <script type="application/ld+json">
 {{
   "@context": "https://schema.org",
@@ -153,35 +155,194 @@ def render_html(town, state, slug, copy, services_subset):
 }}
 </script>
 <style>
-  body {{ font-family: Arial, sans-serif; margin: 0; background: #1a1d1f; color: #e8e8e8; }}
-  header {{ background: #2b2f31; padding: 2rem 1.5rem; border-bottom: 3px solid #c9472b; }}
-  header h1 {{ margin: 0 0 0.5rem; font-size: 1.8rem; color: #ffffff; }}
-  .intro {{ max-width: 760px; margin: 1.5rem auto; padding: 0 1.5rem; line-height: 1.6; }}
-  .services {{ max-width: 900px; margin: 0 auto 2rem; padding: 0 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }}
-  .service-card {{ background: #24272a; border-left: 4px solid #3a6f7a; padding: 1rem 1.2rem; border-radius: 4px; }}
-  .service-card h3 {{ margin: 0 0 0.4rem; font-size: 1.05rem; color: #f0f0f0; }}
-  .service-card p {{ margin: 0; font-size: 0.92rem; color: #b8b8b8; line-height: 1.5; }}
-  .cta {{ text-align: center; padding: 2rem 1.5rem; }}
-  .cta a {{ display: inline-block; background: #c9472b; color: white; padding: 0.9rem 1.8rem; border-radius: 4px; text-decoration: none; font-weight: bold; }}
-  footer {{ text-align: center; padding: 1.5rem; font-size: 0.85rem; color: #777; }}
+  * {{ box-sizing: border-box; }}
+  body {{
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    margin: 0;
+    background: #ffffff;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }}
+  .topbar {{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.25rem;
+    background: #ffffff;
+    max-width: 900px;
+    margin: 0 auto;
+  }}
+  .topbar .brand {{ font-weight: 700; font-size: 1.05rem; color: #1a1a1a; }}
+  .topbar .call-btn {{
+    background: #0019ff;
+    color: #fff;
+    border-radius: 999px;
+    padding: 0.55rem 1.3rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+  }}
+  .hero {{
+    background: linear-gradient(rgba(10,10,20,0.55), rgba(10,10,20,0.65)),
+                url('https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1200&q=60');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 3rem 1.5rem 3.5rem;
+    text-align: center;
+  }}
+  .hero-inner {{
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: left;
+  }}
+  .hero .eyebrow {{
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #fff;
+  }}
+  .hero h1 {{
+    font-size: 2.1rem;
+    font-weight: 800;
+    margin: 0 0 1rem;
+    line-height: 1.15;
+  }}
+  .hero p {{
+    font-size: 1rem;
+    max-width: 640px;
+    margin: 0 0 1.5rem;
+    color: #f0f0f0;
+  }}
+  .btn-primary {{
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    background: #0019ff;
+    color: #fff;
+    padding: 0.95rem 1.5rem;
+    border-radius: 999px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 auto 0.85rem;
+    font-size: 1.02rem;
+  }}
+  .btn-secondary {{
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    background: #ffffff;
+    color: #0019ff;
+    border: 2px solid #0019ff;
+    padding: 0.9rem 1.5rem;
+    border-radius: 999px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 auto;
+    font-size: 1.02rem;
+  }}
+  .intro-section {{
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 2.25rem 1.5rem;
+    text-align: center;
+  }}
+  .intro-section p {{
+    font-size: 1rem;
+    color: #333;
+  }}
+  .intro-section strong {{ color: #0019ff; }}
+  .services-section {{
+    background: #f4f5f7;
+    padding: 2.5rem 1.5rem;
+  }}
+  .services-section h2 {{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin: 0 0 1.75rem;
+    color: #111;
+  }}
+  .services-wrap {{
+    max-width: 720px;
+    margin: 0 auto;
+  }}
+  .service-block {{
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }}
+  .service-block h3 {{
+    color: #0019ff;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 0.35rem;
+  }}
+  .service-block p {{
+    margin: 0;
+    color: #444;
+    font-size: 0.95rem;
+  }}
+  .cta-section {{
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+  }}
+  .cta-section h2 {{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0 0 1.25rem;
+    color: #111;
+  }}
+  footer {{
+    text-align: center;
+    padding: 2rem 1.5rem;
+    font-size: 0.85rem;
+    color: #777;
+    background: #fafafa;
+    border-top: 1px solid #eee;
+  }}
+  footer .phone {{ color: #0019ff; font-weight: 600; text-decoration: none; }}
 </style>
 </head>
 <body>
-<header>
-  <h1>{copy['h1']}</h1>
-</header>
-<div class="intro">
-  <p>{copy['intro']}</p>
+<div class="topbar">
+  <span class="brand">{BUSINESS_NAME}</span>
+  <a class="call-btn" href="tel:{PHONE}">Call Now</a>
+</div>
+
+<div class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">⭐ 5-Star Rated &middot; Tech &amp; Repair Specialist</span>
+    <h1>{copy['h1']}</h1>
+    <p>{copy['intro']}</p>
+    <a class="btn-primary" href="{DIRECT_BOOKING_URL}">Book Now</a>
+    <a class="btn-secondary" href="{BOOKING_URL}">Learn More</a>
+  </div>
+</div>
+
+<div class="intro-section">
   <p>{copy['services_intro']}</p>
 </div>
-<div class="services">
+
+<div class="services-section">
+  <h2>Premium Installation, Tech &amp; Repair Services</h2>
+  <div class="services-wrap">
 {service_items}
+  </div>
 </div>
-<div class="cta">
-  <a href="{BOOKING_URL}">Book a Service Call \u2014 {PHONE}</a>
+
+<div class="cta-section">
+  <h2>Get a Custom Quote in {town}, {state}</h2>
+  <a class="btn-primary" href="{DIRECT_BOOKING_URL}">Book Now</a>
+  <a class="btn-secondary" href="{BOOKING_URL}">Learn More</a>
 </div>
+
 <footer>
-  {BUSINESS_NAME} &middot; Serving {town}, {state} and the surrounding 200-mile area
+  {BUSINESS_NAME}<br>
+  Serving {town}, {state} and the surrounding 200-mile area<br>
+  <a class="phone" href="tel:{PHONE}">{PHONE}</a>
 </footer>
 </body>
 </html>
@@ -210,13 +371,18 @@ def regenerate_index(towns):
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Service Areas \u2014 {BUSINESS_NAME}</title>
+<title>Service Areas — {BUSINESS_NAME}</title>
 <meta name="description" content="Starlink installation, smart home, networking, and RV tech services across East Texas, Southwest Arkansas, Northwest Louisiana, and Southeast Oklahoma.">
-<style>body{{font-family:Arial,sans-serif;background:#1a1d1f;color:#e8e8e8;max-width:700px;margin:2rem auto;padding:0 1.5rem;}}
-a{{color:#7fc8d6;}}h1{{color:#fff;}}ul{{line-height:1.9;}}</style>
+<style>
+body{{font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:#fff;color:#1a1a1a;max-width:700px;margin:2rem auto;padding:0 1.5rem;line-height:1.6;}}
+a{{color:#0019ff;text-decoration:none;font-weight:600;}}
+h1{{color:#111;font-weight:800;}}
+ul{{line-height:2;list-style:none;padding:0;}}
+li{{border-bottom:1px solid #eee;padding:0.5rem 0;}}
+</style>
 </head>
 <body>
-<h1>{BUSINESS_NAME} \u2014 Service Areas</h1>
+<h1>{BUSINESS_NAME} — Service Areas</h1>
 <p>{len(published)} of 45 service-area pages published so far.</p>
 <ul>
 {items}
