@@ -353,97 +353,113 @@
     "town": "Queen City",
     "state": "TX",
     "slug": "queen-city-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:40.856197+00:00"
   },
   {
     "town": "Bivins",
     "state": "TX",
     "slug": "bivins-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:40.902072+00:00"
   },
   {
     "town": "DeKalb",
     "state": "TX",
     "slug": "dekalb-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:40.941324+00:00"
   },
   {
     "town": "Maud",
     "state": "TX",
     "slug": "maud-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:40.980149+00:00"
   },
   {
     "town": "Redwater",
     "state": "TX",
     "slug": "redwater-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:41.014896+00:00"
   },
   {
     "town": "Nash",
     "state": "TX",
     "slug": "nash-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:41.094728+00:00"
   },
   {
     "town": "Wake Village",
     "state": "TX",
     "slug": "wake-village-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:41.133474+00:00"
   },
   {
     "town": "Hooks",
     "state": "TX",
     "slug": "hooks-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:41.169345+00:00"
   },
   {
     "town": "Simms",
     "state": "TX",
     "slug": "simms-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:41.205449+00:00"
   },
   {
     "town": "De Berry",
     "state": "TX",
     "slug": "de-berry-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:41.261243+00:00"
   },
   {
     "town": "Beckville",
     "state": "TX",
     "slug": "beckville-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:41.299305+00:00"
   },
   {
     "town": "Gary City",
     "state": "TX",
     "slug": "gary-city-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:41.335113+00:00"
   },
   {
     "town": "Tatum",
     "state": "TX",
     "slug": "tatum-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:41.372923+00:00"
   },
   {
     "town": "Mount Enterprise",
     "state": "TX",
     "slug": "mount-enterprise-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:41.413481+00:00"
   },
   {
     "town": "Overton",
     "state": "TX",
     "slug": "overton-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:41.454092+00:00"
   },
   {
     "town": "New London",
     "state": "TX",
     "slug": "new-london-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:11:41.488477+00:00"
   },
   {
     "town": "Laneville",
