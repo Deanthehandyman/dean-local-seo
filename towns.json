@@ -3,78 +3,74 @@
     "town": "Pittsburg",
     "state": "TX",
     "slug": "pittsburg-tx",
-    "published": true,
+    "published": false,
     "published_at": "2026-06-25T02:07:16.011693+00:00"
   },
   {
     "town": "Mount Pleasant",
     "state": "TX",
     "slug": "mount-pleasant-tx",
-    "published": true,
+    "published": false,
     "published_at": "2026-06-25T02:07:16.031864+00:00"
   },
   {
     "town": "Sulphur Springs",
     "state": "TX",
     "slug": "sulphur-springs-tx",
-    "published": true,
+    "published": false,
     "published_at": "2026-06-25T02:07:16.043812+00:00"
   },
   {
     "town": "Texarkana",
     "state": "TX",
     "slug": "texarkana-tx",
-    "published": true,
+    "published": false,
     "published_at": "2026-06-25T02:07:16.060039+00:00"
   },
   {
     "town": "Longview",
     "state": "TX",
     "slug": "longview-tx",
-    "published": true,
+    "published": false,
     "published_at": "2026-06-25T02:07:16.073909+00:00"
   },
   {
     "town": "Tyler",
     "state": "TX",
     "slug": "tyler-tx",
-    "published": true,
+    "published": false,
     "published_at": "2026-06-25T02:07:16.089147+00:00"
   },
   {
     "town": "Gilmer",
     "state": "TX",
     "slug": "gilmer-tx",
-    "published": true,
-    "published_at": "2026-06-24T04:41:51.663006+00:00"
+    "published": false,
+    "published_at": 
   },
   {
     "town": "Daingerfield",
     "state": "TX",
     "slug": "daingerfield-tx",
-    "published": true,
-    "published_at": "2026-06-24T04:41:51.676473+00:00"
+    "published": false,
   },
   {
     "town": "Linden",
     "state": "TX",
     "slug": "linden-tx",
-    "published": true,
-    "published_at": "2026-06-25T02:07:16.104515+00:00"
+    "published": false,
   },
   {
     "town": "Mineola",
     "state": "TX",
     "slug": "mineola-tx",
-    "published": true,
-    "published_at": "2026-06-25T02:07:16.120112+00:00"
+    "published": false,
   },
   {
     "town": "Quitman",
     "state": "TX",
     "slug": "quitman-tx",
-    "published": true,
-    "published_at": "2026-06-25T02:07:16.138693+00:00"
+    "published": false,
   },
   {
     "town": "Winnsboro",
