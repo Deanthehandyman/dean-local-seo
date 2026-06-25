@@ -208,6 +208,7 @@ def render_html(town, state, county, lat, lng, slug, copy, services_subset):
 <meta name="geo.placename" content="{town}, {state}">
 <meta name="geo.position" content="{lat};{lng}">
 <meta name="ICBM" content="{lat}, {lng}">
+<meta name="google-site-verification" content="Ppwb67jnNZqenhH9knICRsS0JoWsvO_G5isyaixaDwk" />
 <script type="application/ld+json">
 {{
   "@context": "https://schema.org",
