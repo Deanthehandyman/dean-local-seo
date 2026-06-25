@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://deanthehandyman.github.io/dean-local-seo/sitemap.xml
