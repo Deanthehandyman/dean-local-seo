@@ -3,43 +3,43 @@
     "town": "Pittsburg",
     "state": "TX",
     "slug": "pittsburg-tx",
-    "published": false,
-    "published_at": "2026-06-24T21:26:02.617867+00:00"
+    "published": true,
+    "published_at": "2026-06-25T00:38:05.974762+00:00"
   },
   {
     "town": "Mount Pleasant",
     "state": "TX",
     "slug": "mount-pleasant-tx",
-    "published": false,
-    "published_at": "2026-06-24T21:26:02.633598+00:00"
+    "published": true,
+    "published_at": "2026-06-25T00:38:06.019904+00:00"
   },
   {
     "town": "Sulphur Springs",
     "state": "TX",
     "slug": "sulphur-springs-tx",
-    "published": false,
-    "published_at": "2026-06-24T21:26:02.647602+00:00"
+    "published": true,
+    "published_at": "2026-06-25T00:38:06.060569+00:00"
   },
   {
     "town": "Texarkana",
     "state": "TX",
     "slug": "texarkana-tx",
-    "published": false,
-    "published_at": "2026-06-24T21:26:02.662241+00:00"
+    "published": true,
+    "published_at": "2026-06-25T00:38:06.104424+00:00"
   },
   {
     "town": "Longview",
     "state": "TX",
     "slug": "longview-tx",
-    "published": false,
-    "published_at": "2026-06-24T21:26:02.677469+00:00"
+    "published": true,
+    "published_at": "2026-06-25T00:38:06.155434+00:00"
   },
   {
     "town": "Tyler",
     "state": "TX",
     "slug": "tyler-tx",
-    "published": false,
-    "published_at": "2026-06-24T21:26:02.693630+00:00"
+    "published": true,
+    "published_at": "2026-06-25T00:38:06.194489+00:00"
   },
   {
     "town": "Gilmer",
