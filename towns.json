@@ -66,55 +66,64 @@
     "town": "Mineola",
     "state": "TX",
     "slug": "mineola-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:00:41.042938+00:00"
   },
   {
     "town": "Quitman",
     "state": "TX",
     "slug": "quitman-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:00:41.082093+00:00"
   },
   {
     "town": "Winnsboro",
     "state": "TX",
     "slug": "winnsboro-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:00:41.116009+00:00"
   },
   {
     "town": "Hawkins",
     "state": "TX",
     "slug": "hawkins-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:00:41.155049+00:00"
   },
   {
     "town": "Big Sandy",
     "state": "TX",
     "slug": "big-sandy-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:00:41.189898+00:00"
   },
   {
     "town": "Gladewater",
     "state": "TX",
     "slug": "gladewater-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:00:41.230235+00:00"
   },
   {
     "town": "Kilgore",
     "state": "TX",
     "slug": "kilgore-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:00:41.264944+00:00"
   },
   {
     "town": "Henderson",
     "state": "TX",
     "slug": "henderson-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:00:41.477543+00:00"
   },
   {
     "town": "Marshall",
     "state": "TX",
     "slug": "marshall-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T03:00:41.514239+00:00"
   },
   {
     "town": "Jefferson",
