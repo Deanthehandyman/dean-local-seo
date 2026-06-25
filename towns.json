@@ -3,55 +3,64 @@
     "town": "Pittsburg",
     "state": "TX",
     "slug": "pittsburg-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T02:47:06.769226+00:00"
   },
   {
     "town": "Mount Pleasant",
     "state": "TX",
     "slug": "mount-pleasant-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T02:47:06.786073+00:00"
   },
   {
     "town": "Sulphur Springs",
     "state": "TX",
     "slug": "sulphur-springs-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T02:47:06.800740+00:00"
   },
   {
     "town": "Texarkana",
     "state": "TX",
     "slug": "texarkana-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T02:47:06.812984+00:00"
   },
   {
     "town": "Longview",
     "state": "TX",
     "slug": "longview-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T02:47:06.830671+00:00"
   },
   {
     "town": "Tyler",
     "state": "TX",
     "slug": "tyler-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T02:47:06.845844+00:00"
   },
   {
     "town": "Gilmer",
     "state": "TX",
     "slug": "gilmer-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T02:47:06.861432+00:00"
   },
   {
     "town": "Daingerfield",
     "state": "TX",
     "slug": "daingerfield-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T02:47:06.876538+00:00"
   },
   {
     "town": "Linden",
     "state": "TX",
     "slug": "linden-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-25T02:47:06.896638+00:00"
   },
   {
     "town": "Mineola",
