@@ -311,133 +311,155 @@
     "town": "Durant",
     "state": "OK",
     "slug": "durant-ok",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:35.365342+00:00"
   },
   {
     "town": "Cookville",
     "state": "TX",
     "slug": "cookville-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:36.820798+00:00"
   },
   {
     "town": "Omaha",
     "state": "TX",
     "slug": "omaha-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:38.116327+00:00"
   },
   {
     "town": "Naples",
     "state": "TX",
     "slug": "naples-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:39.658906+00:00"
   },
   {
     "town": "Avinger",
     "state": "TX",
     "slug": "avinger-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:40.955437+00:00"
   },
   {
     "town": "Hughes Springs",
     "state": "TX",
     "slug": "hughes-springs-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:40.994985+00:00"
   },
   {
     "town": "Queen City",
     "state": "TX",
     "slug": "queen-city-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.033380+00:00"
   },
   {
     "town": "Bivins",
     "state": "TX",
     "slug": "bivins-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.103411+00:00"
   },
   {
     "town": "DeKalb",
     "state": "TX",
     "slug": "dekalb-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.177691+00:00"
   },
   {
     "town": "Maud",
     "state": "TX",
     "slug": "maud-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.248185+00:00"
   },
   {
     "town": "Redwater",
     "state": "TX",
     "slug": "redwater-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.318898+00:00"
   },
   {
     "town": "Nash",
     "state": "TX",
     "slug": "nash-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.361612+00:00"
   },
   {
     "town": "Wake Village",
     "state": "TX",
     "slug": "wake-village-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.399026+00:00"
   },
   {
     "town": "Hooks",
     "state": "TX",
     "slug": "hooks-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.475766+00:00"
   },
   {
     "town": "Simms",
     "state": "TX",
     "slug": "simms-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.555172+00:00"
   },
   {
     "town": "De Berry",
     "state": "TX",
     "slug": "de-berry-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.604519+00:00"
   },
   {
     "town": "Beckville",
     "state": "TX",
     "slug": "beckville-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.681251+00:00"
   },
   {
     "town": "Gary City",
     "state": "TX",
     "slug": "gary-city-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.759960+00:00"
   },
   {
     "town": "Tatum",
     "state": "TX",
     "slug": "tatum-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.796693+00:00"
   },
   {
     "town": "Mount Enterprise",
     "state": "TX",
     "slug": "mount-enterprise-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.837053+00:00"
   },
   {
     "town": "Overton",
     "state": "TX",
     "slug": "overton-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.878666+00:00"
   },
   {
     "town": "New London",
     "state": "TX",
     "slug": "new-london-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:02:41.949975+00:00"
   },
   {
     "town": "Laneville",
