@@ -581,7 +581,7 @@ def render_directory_html(services_by_category):
   }}
   footer .phone {{ color: #0019ff; font-weight: 600; text-decoration: none; }}
 
-  .referral-block {
+  .referral-block {{
     max-width: 720px;
     margin: 0 auto 2rem;
     padding: 1.5rem;
@@ -589,19 +589,19 @@ def render_directory_html(services_by_category):
     border: 2px solid #0099ff;
     border-radius: 8px;
     text-align: center;
-  }
-  .referral-block h2 {
+  }}
+  .referral-block h2 {{
     font-size: 1.3rem;
     font-weight: 800;
     color: #003d7a;
     margin: 0 0 0.75rem;
-  }
-  .referral-block p {
+  }}
+  .referral-block p {{
     color: #333;
     margin: 0 0 1rem;
     font-size: 0.95rem;
-  }
-  .referral-block .btn-referral {
+  }}
+  .referral-block .btn-referral {{
     display: inline-block;
     background: #0099ff;
     color: #fff;
@@ -610,10 +610,10 @@ def render_directory_html(services_by_category):
     text-decoration: none;
     font-weight: 700;
     font-size: 1rem;
-  }
-  .referral-block .btn-referral:hover {
+  }}
+  .referral-block .btn-referral:hover {{
     background: #0077cc;
-  }</style>
+  }}</style>
 </head>
 <body>
 <div class="topbar">
