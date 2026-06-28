@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 TOWNS_FILE = ROOT / "towns.json"
+SERVICES_FULL_FILE = ROOT / "services_full.json"
 SITE_URL = os.environ.get("SITE_URL", "https://CHANGE-ME.netlify.app")
 INDEXNOW_KEY = os.environ.get("INDEXNOW_KEY", "0acf2d8096324058e815327524685b4c")
 
@@ -24,11 +25,17 @@ def main():
     # Only ping for towns published in this run (simple approach: ping all published
     # towns each time; IndexNow does not penalize re-submission).
     published = [t for t in towns if t.get("published")]
-    if not published:
+    url_list = [f"{SITE_URL}/locations/{t['slug']}/" for t in published]
+
+    if SERVICES_FULL_FILE.exists():
+        with open(SERVICES_FULL_FILE) as f:
+            services = json.load(f)
+        url_list.append(f"{SITE_URL}/services/")
+        url_list.extend(f"{SITE_URL}/services/{s['slug']}/" for s in services)
+
+    if not url_list:
         print("Nothing published yet, skipping IndexNow ping.")
         return
-
-    url_list = [f"{SITE_URL}/locations/{t['slug']}/" for t in published]
 
     payload = {
         "host": SITE_URL.replace("https://", "").replace("http://", "").rstrip("/"),

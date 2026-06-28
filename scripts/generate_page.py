@@ -93,6 +93,7 @@ Respond ONLY with valid JSON in this exact shape, no markdown fences, no comment
 
     try:
         import urllib.request
+        import urllib.error
 
         req = urllib.request.Request(
             "https://api.groq.com/openai/v1/chat/completions",
@@ -105,6 +106,7 @@ Respond ONLY with valid JSON in this exact shape, no markdown fences, no comment
             headers={
                 "Authorization": f"Bearer {api_key}",
                 "Content-Type": "application/json",
+                "User-Agent": "dean-local-seo-generator/1.0",
             },
             method="POST",
         )
@@ -116,6 +118,13 @@ Respond ONLY with valid JSON in this exact shape, no markdown fences, no comment
             if "faqs" not in parsed or len(parsed.get("faqs", [])) < 1:
                 raise ValueError("Groq response missing FAQs")
             return parsed
+    except urllib.error.HTTPError as e:
+        try:
+            error_body = e.read().decode()
+        except Exception:
+            error_body = "(could not read error body)"
+        print(f"WARNING: Groq call failed (HTTP {e.code}: {error_body}), using fallback template copy.")
+        return fallback_copy(town, state, county, services_subset)
     except Exception as e:
         print(f"WARNING: Groq call failed ({e}), using fallback template copy.")
         return fallback_copy(town, state, county, services_subset)
@@ -154,6 +163,11 @@ def fallback_copy(town, state, county, services_subset):
 
 def render_html(town, state, county, lat, lng, slug, copy, services_subset):
     service_items = "\n".join(
+        f"""        <a class="service-block" href="{SITE_URL}/services/{s['slug']}/">
+          <h3>{s['name']}</h3>
+          <p>{s['short_description']}</p>
+        </a>"""
+        if s.get('slug') else
         f"""        <div class="service-block">
           <h3>{s['name']}</h3>
           <p>{s['short_description']}</p>
@@ -377,6 +391,15 @@ def render_html(town, state, county, lat, lng, slug, copy, services_subset):
   .service-block {{
     margin-bottom: 1.5rem;
     text-align: center;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 10px;
+    padding: 0.5rem;
+    transition: background 0.15s;
+  }}
+  a.service-block:hover {{
+    background: #eef0ff;
   }}
   .service-block h3 {{
     color: #0019ff;
