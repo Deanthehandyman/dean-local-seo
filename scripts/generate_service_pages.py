@@ -651,12 +651,12 @@ def main():
         html = render_service_html(s, related)
         page_dir = SERVICES_DIR / s["slug"]
         page_dir.mkdir(parents=True, exist_ok=True)
-        with open(page_dir / "index.html", "w") as f:
+        with open(page_dir / "index.html", "w", encoding="utf-8") as f:
             f.write(html)
         print(f"  -> wrote services/{s['slug']}/index.html")
 
     dir_html = render_directory_html(by_category)
-    with open(SERVICES_DIR / "index.html", "w") as f:
+    with open(SERVICES_DIR / "index.html", "w", encoding="utf-8") as f:
         f.write(dir_html)
     print(f"  -> wrote services/index.html (directory page)")
 
