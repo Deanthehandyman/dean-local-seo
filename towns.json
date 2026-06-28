@@ -451,97 +451,113 @@
     "town": "Overton",
     "state": "TX",
     "slug": "overton-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:36.729113+00:00"
   },
   {
     "town": "New London",
     "state": "TX",
     "slug": "new-london-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:38.041575+00:00"
   },
   {
     "town": "Laneville",
     "state": "TX",
     "slug": "laneville-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:39.362534+00:00"
   },
   {
     "town": "Joinerville",
     "state": "TX",
     "slug": "joinerville-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:39.419685+00:00"
   },
   {
     "town": "Garrison",
     "state": "TX",
     "slug": "garrison-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:39.469327+00:00"
   },
   {
     "town": "Cushing",
     "state": "TX",
     "slug": "cushing-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:39.527174+00:00"
   },
   {
     "town": "Chireno",
     "state": "TX",
     "slug": "chireno-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:39.597688+00:00"
   },
   {
     "town": "Lufkin",
     "state": "TX",
     "slug": "lufkin-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:39.651781+00:00"
   },
   {
     "town": "Diboll",
     "state": "TX",
     "slug": "diboll-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:39.707544+00:00"
   },
   {
     "town": "Huntington",
     "state": "TX",
     "slug": "huntington-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:39.756070+00:00"
   },
   {
     "town": "San Augustine",
     "state": "TX",
     "slug": "san-augustine-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:39.810449+00:00"
   },
   {
     "town": "Timpson",
     "state": "TX",
     "slug": "timpson-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:39.864572+00:00"
   },
   {
     "town": "Tenaha",
     "state": "TX",
     "slug": "tenaha-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:39.929827+00:00"
   },
   {
     "town": "Joaquin",
     "state": "TX",
     "slug": "joaquin-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:40.016429+00:00"
   },
   {
     "town": "Frankston",
     "state": "TX",
     "slug": "frankston-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:40.068610+00:00"
   },
   {
     "town": "Palestine",
     "state": "TX",
     "slug": "palestine-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:28:40.120339+00:00"
   },
   {
     "town": "Jacksonville",
