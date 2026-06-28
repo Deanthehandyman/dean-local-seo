@@ -3,97 +3,113 @@
     "town": "Pittsburg",
     "state": "TX",
     "slug": "pittsburg-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.708111+00:00"
   },
   {
     "town": "Mount Pleasant",
     "state": "TX",
     "slug": "mount-pleasant-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.719877+00:00"
   },
   {
     "town": "Sulphur Springs",
     "state": "TX",
     "slug": "sulphur-springs-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.730905+00:00"
   },
   {
     "town": "Texarkana",
     "state": "TX",
     "slug": "texarkana-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.746500+00:00"
   },
   {
     "town": "Longview",
     "state": "TX",
     "slug": "longview-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.760607+00:00"
   },
   {
     "town": "Tyler",
     "state": "TX",
     "slug": "tyler-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.774293+00:00"
   },
   {
     "town": "Gilmer",
     "state": "TX",
     "slug": "gilmer-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.787687+00:00"
   },
   {
     "town": "Daingerfield",
     "state": "TX",
     "slug": "daingerfield-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.801916+00:00"
   },
   {
     "town": "Linden",
     "state": "TX",
     "slug": "linden-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.816189+00:00"
   },
   {
     "town": "Mineola",
     "state": "TX",
     "slug": "mineola-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.831674+00:00"
   },
   {
     "town": "Quitman",
     "state": "TX",
     "slug": "quitman-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.845508+00:00"
   },
   {
     "town": "Winnsboro",
     "state": "TX",
     "slug": "winnsboro-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.860200+00:00"
   },
   {
     "town": "Hawkins",
     "state": "TX",
     "slug": "hawkins-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.871430+00:00"
   },
   {
     "town": "Big Sandy",
     "state": "TX",
     "slug": "big-sandy-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.884496+00:00"
   },
   {
     "town": "Gladewater",
     "state": "TX",
     "slug": "gladewater-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.896970+00:00"
   },
   {
     "town": "Kilgore",
     "state": "TX",
     "slug": "kilgore-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:09:09.908940+00:00"
   },
   {
     "town": "Henderson",
