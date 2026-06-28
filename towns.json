@@ -465,133 +465,155 @@
     "town": "Laneville",
     "state": "TX",
     "slug": "laneville-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:44.615350+00:00"
   },
   {
     "town": "Joinerville",
     "state": "TX",
     "slug": "joinerville-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:46.093019+00:00"
   },
   {
     "town": "Garrison",
     "state": "TX",
     "slug": "garrison-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:47.681187+00:00"
   },
   {
     "town": "Cushing",
     "state": "TX",
     "slug": "cushing-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:49.004263+00:00"
   },
   {
     "town": "Chireno",
     "state": "TX",
     "slug": "chireno-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:50.446515+00:00"
   },
   {
     "town": "Lufkin",
     "state": "TX",
     "slug": "lufkin-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:51.837894+00:00"
   },
   {
     "town": "Diboll",
     "state": "TX",
     "slug": "diboll-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:51.899922+00:00"
   },
   {
     "town": "Huntington",
     "state": "TX",
     "slug": "huntington-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:51.967667+00:00"
   },
   {
     "town": "San Augustine",
     "state": "TX",
     "slug": "san-augustine-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:52.050398+00:00"
   },
   {
     "town": "Timpson",
     "state": "TX",
     "slug": "timpson-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:52.113079+00:00"
   },
   {
     "town": "Tenaha",
     "state": "TX",
     "slug": "tenaha-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:52.193563+00:00"
   },
   {
     "town": "Joaquin",
     "state": "TX",
     "slug": "joaquin-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:52.251870+00:00"
   },
   {
     "town": "Frankston",
     "state": "TX",
     "slug": "frankston-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:52.332953+00:00"
   },
   {
     "town": "Palestine",
     "state": "TX",
     "slug": "palestine-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:52.396432+00:00"
   },
   {
     "town": "Jacksonville",
     "state": "TX",
     "slug": "jacksonville-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:52.459056+00:00"
   },
   {
     "town": "Rusk",
     "state": "TX",
     "slug": "rusk-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:52.568236+00:00"
   },
   {
     "town": "Alto",
     "state": "TX",
     "slug": "alto-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:52.628628+00:00"
   },
   {
     "town": "Wells",
     "state": "TX",
     "slug": "wells-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:52.693453+00:00"
   },
   {
     "town": "Bullard",
     "state": "TX",
     "slug": "bullard-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:52.770787+00:00"
   },
   {
     "town": "Whitehouse",
     "state": "TX",
     "slug": "whitehouse-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:52.849981+00:00"
   },
   {
     "town": "Lindale",
     "state": "TX",
     "slug": "lindale-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:52.909859+00:00"
   },
   {
     "town": "Troup",
     "state": "TX",
     "slug": "troup-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:03:52.973579+00:00"
   },
   {
     "town": "Chandler",
