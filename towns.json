@@ -3,574 +3,574 @@
     "town": "Pittsburg",
     "state": "TX",
     "slug": "pittsburg-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T02:47:06.769226+00:00"
   },
   {
     "town": "Mount Pleasant",
     "state": "TX",
     "slug": "mount-pleasant-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T02:47:06.786073+00:00"
   },
   {
     "town": "Sulphur Springs",
     "state": "TX",
     "slug": "sulphur-springs-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T02:47:06.800740+00:00"
   },
   {
     "town": "Texarkana",
     "state": "TX",
     "slug": "texarkana-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T02:47:06.812984+00:00"
   },
   {
     "town": "Longview",
     "state": "TX",
     "slug": "longview-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T02:47:06.830671+00:00"
   },
   {
     "town": "Tyler",
     "state": "TX",
     "slug": "tyler-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T02:47:06.845844+00:00"
   },
   {
     "town": "Gilmer",
     "state": "TX",
     "slug": "gilmer-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T02:47:06.861432+00:00"
   },
   {
     "town": "Daingerfield",
     "state": "TX",
     "slug": "daingerfield-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T02:47:06.876538+00:00"
   },
   {
     "town": "Linden",
     "state": "TX",
     "slug": "linden-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T02:47:06.896638+00:00"
   },
   {
     "town": "Mineola",
     "state": "TX",
     "slug": "mineola-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:00:41.042938+00:00"
   },
   {
     "town": "Quitman",
     "state": "TX",
     "slug": "quitman-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:00:41.082093+00:00"
   },
   {
     "town": "Winnsboro",
     "state": "TX",
     "slug": "winnsboro-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:00:41.116009+00:00"
   },
   {
     "town": "Hawkins",
     "state": "TX",
     "slug": "hawkins-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:00:41.155049+00:00"
   },
   {
     "town": "Big Sandy",
     "state": "TX",
     "slug": "big-sandy-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:00:41.189898+00:00"
   },
   {
     "town": "Gladewater",
     "state": "TX",
     "slug": "gladewater-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:00:41.230235+00:00"
   },
   {
     "town": "Kilgore",
     "state": "TX",
     "slug": "kilgore-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:00:41.264944+00:00"
   },
   {
     "town": "Henderson",
     "state": "TX",
     "slug": "henderson-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:00:41.477543+00:00"
   },
   {
     "town": "Marshall",
     "state": "TX",
     "slug": "marshall-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:00:41.514239+00:00"
   },
   {
     "town": "Jefferson",
     "state": "TX",
     "slug": "jefferson-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.732604+00:00"
   },
   {
     "town": "Atlanta",
     "state": "TX",
     "slug": "atlanta-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.750834+00:00"
   },
   {
     "town": "New Boston",
     "state": "TX",
     "slug": "new-boston-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.763108+00:00"
   },
   {
     "town": "Clarksville",
     "state": "TX",
     "slug": "clarksville-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.783695+00:00"
   },
   {
     "town": "Paris",
     "state": "TX",
     "slug": "paris-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.798223+00:00"
   },
   {
     "town": "Commerce",
     "state": "TX",
     "slug": "commerce-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.811766+00:00"
   },
   {
     "town": "Greenville",
     "state": "TX",
     "slug": "greenville-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.831316+00:00"
   },
   {
     "town": "Canton",
     "state": "TX",
     "slug": "canton-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.843187+00:00"
   },
   {
     "town": "Athens",
     "state": "TX",
     "slug": "athens-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.861797+00:00"
   },
   {
     "town": "Carthage",
     "state": "TX",
     "slug": "carthage-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.878025+00:00"
   },
   {
     "town": "Center",
     "state": "TX",
     "slug": "center-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.895468+00:00"
   },
   {
     "town": "Nacogdoches",
     "state": "TX",
     "slug": "nacogdoches-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.907185+00:00"
   },
   {
     "town": "Texarkana",
     "state": "AR",
     "slug": "texarkana-ar",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.919919+00:00"
   },
   {
     "town": "Hope",
     "state": "AR",
     "slug": "hope-ar",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.932310+00:00"
   },
   {
     "town": "Magnolia",
     "state": "AR",
     "slug": "magnolia-ar",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.945973+00:00"
   },
   {
     "town": "Hot Springs",
     "state": "AR",
     "slug": "hot-springs-ar",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:04:00.960071+00:00"
   },
   {
     "town": "Ashdown",
     "state": "AR",
     "slug": "ashdown-ar",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.162293+00:00"
   },
   {
     "town": "Shreveport",
     "state": "LA",
     "slug": "shreveport-la",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.179934+00:00"
   },
   {
     "town": "Bossier City",
     "state": "LA",
     "slug": "bossier-city-la",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.205129+00:00"
   },
   {
     "town": "Minden",
     "state": "LA",
     "slug": "minden-la",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.221822+00:00"
   },
   {
     "town": "Mansfield",
     "state": "LA",
     "slug": "mansfield-la",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.238196+00:00"
   },
   {
     "town": "Many",
     "state": "LA",
     "slug": "many-la",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.253515+00:00"
   },
   {
     "town": "Idabel",
     "state": "OK",
     "slug": "idabel-ok",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.272796+00:00"
   },
   {
     "town": "Broken Bow",
     "state": "OK",
     "slug": "broken-bow-ok",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.290511+00:00"
   },
   {
     "town": "Hugo",
     "state": "OK",
     "slug": "hugo-ok",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.309965+00:00"
   },
   {
     "town": "Antlers",
     "state": "OK",
     "slug": "antlers-ok",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.326092+00:00"
   },
   {
     "town": "Durant",
     "state": "OK",
     "slug": "durant-ok",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.341719+00:00"
   },
   {
     "town": "Cookville",
     "state": "TX",
     "slug": "cookville-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.359157+00:00"
   },
   {
     "town": "Omaha",
     "state": "TX",
     "slug": "omaha-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.371329+00:00"
   },
   {
     "town": "Naples",
     "state": "TX",
     "slug": "naples-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.385048+00:00"
   },
   {
     "town": "Avinger",
     "state": "TX",
     "slug": "avinger-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.398919+00:00"
   },
   {
     "town": "Hughes Springs",
     "state": "TX",
     "slug": "hughes-springs-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:07:33.424966+00:00"
   },
   {
     "town": "Queen City",
     "state": "TX",
     "slug": "queen-city-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:40.856197+00:00"
   },
   {
     "town": "Bivins",
     "state": "TX",
     "slug": "bivins-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:40.902072+00:00"
   },
   {
     "town": "DeKalb",
     "state": "TX",
     "slug": "dekalb-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:40.941324+00:00"
   },
   {
     "town": "Maud",
     "state": "TX",
     "slug": "maud-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:40.980149+00:00"
   },
   {
     "town": "Redwater",
     "state": "TX",
     "slug": "redwater-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:41.014896+00:00"
   },
   {
     "town": "Nash",
     "state": "TX",
     "slug": "nash-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:41.094728+00:00"
   },
   {
     "town": "Wake Village",
     "state": "TX",
     "slug": "wake-village-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:41.133474+00:00"
   },
   {
     "town": "Hooks",
     "state": "TX",
     "slug": "hooks-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:41.169345+00:00"
   },
   {
     "town": "Simms",
     "state": "TX",
     "slug": "simms-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:41.205449+00:00"
   },
   {
     "town": "De Berry",
     "state": "TX",
     "slug": "de-berry-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:41.261243+00:00"
   },
   {
     "town": "Beckville",
     "state": "TX",
     "slug": "beckville-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:41.299305+00:00"
   },
   {
     "town": "Gary City",
     "state": "TX",
     "slug": "gary-city-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:41.335113+00:00"
   },
   {
     "town": "Tatum",
     "state": "TX",
     "slug": "tatum-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:41.372923+00:00"
   },
   {
     "town": "Mount Enterprise",
     "state": "TX",
     "slug": "mount-enterprise-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:41.413481+00:00"
   },
   {
     "town": "Overton",
     "state": "TX",
     "slug": "overton-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:41.454092+00:00"
   },
   {
     "town": "New London",
     "state": "TX",
     "slug": "new-london-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-25T03:11:41.488477+00:00"
   },
   {
     "town": "Laneville",
     "state": "TX",
     "slug": "laneville-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.534144+00:00"
   },
   {
     "town": "Joinerville",
     "state": "TX",
     "slug": "joinerville-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.548882+00:00"
   },
   {
     "town": "Garrison",
     "state": "TX",
     "slug": "garrison-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.566197+00:00"
   },
   {
     "town": "Cushing",
     "state": "TX",
     "slug": "cushing-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.583640+00:00"
   },
   {
     "town": "Chireno",
     "state": "TX",
     "slug": "chireno-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.598478+00:00"
   },
   {
     "town": "Lufkin",
     "state": "TX",
     "slug": "lufkin-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.614340+00:00"
   },
   {
     "town": "Diboll",
     "state": "TX",
     "slug": "diboll-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.630668+00:00"
   },
   {
     "town": "Huntington",
     "state": "TX",
     "slug": "huntington-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.644625+00:00"
   },
   {
     "town": "San Augustine",
     "state": "TX",
     "slug": "san-augustine-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.657383+00:00"
   },
   {
     "town": "Timpson",
     "state": "TX",
     "slug": "timpson-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.673160+00:00"
   },
   {
     "town": "Tenaha",
     "state": "TX",
     "slug": "tenaha-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.688777+00:00"
   },
   {
     "town": "Joaquin",
     "state": "TX",
     "slug": "joaquin-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.703657+00:00"
   },
   {
     "town": "Frankston",
     "state": "TX",
     "slug": "frankston-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.719586+00:00"
   },
   {
     "town": "Palestine",
     "state": "TX",
     "slug": "palestine-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.738024+00:00"
   },
   {
     "town": "Jacksonville",
     "state": "TX",
     "slug": "jacksonville-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.751254+00:00"
   },
   {
     "town": "Rusk",
     "state": "TX",
     "slug": "rusk-tx",
-    "published": true,
+    "published": false
     "published_at": "2026-06-28T04:53:46.763553+00:00"
   },
   {
