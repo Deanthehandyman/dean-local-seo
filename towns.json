@@ -773,133 +773,155 @@
     "town": "Wolfe City",
     "state": "TX",
     "slug": "wolfe-city-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:53.744496+00:00"
   },
   {
     "town": "Quinlan",
     "state": "TX",
     "slug": "quinlan-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:53.790085+00:00"
   },
   {
     "town": "Lone Oak",
     "state": "TX",
     "slug": "lone-oak-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:53.838950+00:00"
   },
   {
     "town": "Caddo Mills",
     "state": "TX",
     "slug": "caddo-mills-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:53.884976+00:00"
   },
   {
     "town": "Campbell",
     "state": "TX",
     "slug": "campbell-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:53.929677+00:00"
   },
   {
     "town": "Honey Grove",
     "state": "TX",
     "slug": "honey-grove-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:53.981789+00:00"
   },
   {
     "town": "Bonham",
     "state": "TX",
     "slug": "bonham-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.030848+00:00"
   },
   {
     "town": "Ladonia",
     "state": "TX",
     "slug": "ladonia-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.075982+00:00"
   },
   {
     "town": "Trenton",
     "state": "TX",
     "slug": "trenton-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.120121+00:00"
   },
   {
     "town": "Detroit",
     "state": "TX",
     "slug": "detroit-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.169273+00:00"
   },
   {
     "town": "Annona",
     "state": "TX",
     "slug": "annona-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.212644+00:00"
   },
   {
     "town": "Bagwell",
     "state": "TX",
     "slug": "bagwell-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.258485+00:00"
   },
   {
     "town": "Avery",
     "state": "TX",
     "slug": "avery-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.308579+00:00"
   },
   {
     "town": "Bogata",
     "state": "TX",
     "slug": "bogata-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.361218+00:00"
   },
   {
     "town": "Blossom",
     "state": "TX",
     "slug": "blossom-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.407980+00:00"
   },
   {
     "town": "Deport",
     "state": "TX",
     "slug": "deport-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.456416+00:00"
   },
   {
     "town": "Sumner",
     "state": "TX",
     "slug": "sumner-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.499998+00:00"
   },
   {
     "town": "Hallsville",
     "state": "TX",
     "slug": "hallsville-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.552809+00:00"
   },
   {
     "town": "Waskom",
     "state": "TX",
     "slug": "waskom-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.597480+00:00"
   },
   {
     "town": "Karnack",
     "state": "TX",
     "slug": "karnack-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.647925+00:00"
   },
   {
     "town": "White Oak",
     "state": "TX",
     "slug": "white-oak-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.699520+00:00"
   },
   {
     "town": "Easton",
     "state": "TX",
     "slug": "easton-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:13:54.746138+00:00"
   },
   {
     "town": "Diana",
