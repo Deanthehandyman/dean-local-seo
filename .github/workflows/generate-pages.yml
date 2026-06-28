@@ -32,6 +32,10 @@ jobs:
         env:
           SITE_URL: ${{ secrets.SITE_URL }}
         run: python3 scripts/generate_service_pages.py
+      - name: Generate referral page
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: python3 scripts/generate_referral_page.py
       - name: Ping IndexNow
         env:
           SITE_URL: ${{ secrets.SITE_URL }}
