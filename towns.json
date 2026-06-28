@@ -619,133 +619,155 @@
     "town": "Chandler",
     "state": "TX",
     "slug": "chandler-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:32.018672+00:00"
   },
   {
     "town": "Brownsboro",
     "state": "TX",
     "slug": "brownsboro-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:32.148761+00:00"
   },
   {
     "town": "Murchison",
     "state": "TX",
     "slug": "murchison-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:32.269482+00:00"
   },
   {
     "town": "Malakoff",
     "state": "TX",
     "slug": "malakoff-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:32.392017+00:00"
   },
   {
     "town": "Eustace",
     "state": "TX",
     "slug": "eustace-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:32.525766+00:00"
   },
   {
     "town": "Edom",
     "state": "TX",
     "slug": "edom-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:32.659934+00:00"
   },
   {
     "town": "Wills Point",
     "state": "TX",
     "slug": "wills-point-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:32.795103+00:00"
   },
   {
     "town": "Grand Saline",
     "state": "TX",
     "slug": "grand-saline-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:32.921112+00:00"
   },
   {
     "town": "Edgewood",
     "state": "TX",
     "slug": "edgewood-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:33.043958+00:00"
   },
   {
     "town": "Emory",
     "state": "TX",
     "slug": "emory-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:33.162362+00:00"
   },
   {
     "town": "Point",
     "state": "TX",
     "slug": "point-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:33.288972+00:00"
   },
   {
     "town": "Yantis",
     "state": "TX",
     "slug": "yantis-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:33.418837+00:00"
   },
   {
     "town": "Alba",
     "state": "TX",
     "slug": "alba-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:33.550109+00:00"
   },
   {
     "town": "Golden",
     "state": "TX",
     "slug": "golden-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:33.684283+00:00"
   },
   {
     "town": "Cumby",
     "state": "TX",
     "slug": "cumby-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:33.805687+00:00"
   },
   {
     "town": "Sulphur Bluff",
     "state": "TX",
     "slug": "sulphur-bluff-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:33.950379+00:00"
   },
   {
     "town": "Como",
     "state": "TX",
     "slug": "como-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:34.074084+00:00"
   },
   {
     "town": "Dike",
     "state": "TX",
     "slug": "dike-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:34.190768+00:00"
   },
   {
     "town": "Pickton",
     "state": "TX",
     "slug": "pickton-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:34.325762+00:00"
   },
   {
     "town": "Saltillo",
     "state": "TX",
     "slug": "saltillo-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:34.455300+00:00"
   },
   {
     "town": "Cooper",
     "state": "TX",
     "slug": "cooper-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:34.572895+00:00"
   },
   {
     "town": "Klondike",
     "state": "TX",
     "slug": "klondike-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T21:12:34.702281+00:00"
   },
   {
     "town": "Wolfe City",
