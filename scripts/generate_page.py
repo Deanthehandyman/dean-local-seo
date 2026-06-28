@@ -27,7 +27,7 @@ TOWNS_FILE = ROOT / "towns.json"
 SERVICES_FILE = ROOT / "services.json"
 COORDS_FILE = ROOT / "coordinates.json"
 LOCATIONS_DIR = ROOT / "locations"
-SITE_URL = os.environ.get("SITE_URL", "https://CHANGE-ME.netlify.app")
+SITE_URL = os.environ.get("SITE_URL", "https://deanthehandyman.github.io/dean-local-seo")
 PAGES_PER_RUN = int(os.environ.get("PAGES_PER_RUN", "2"))
 BOOKING_URL = "https://deanshandymanservice.square.site"
 DIRECT_BOOKING_URL = "https://book.squareup.com/appointments/6adhz55czkh9i7/location/LRQVC65X9CQJK/services?buttonTextColor=ffffff&color=0019ff&locale=en&referrer=so&team_member_id=TM41qxXARrQWpS86"
@@ -78,10 +78,10 @@ Write the following, each genuinely unique to {town} (not generic boilerplate th
 1. A page title (under 60 characters, must include "{town}" and a core service like Starlink or handyman)
 2. A meta description (under 155 characters)
 3. An H1 headline (different phrasing than the title)
-4. A 2-3 sentence intro paragraph mentioning {town} and {county} by name
+4. A 2-3 sentence intro paragraph that opens by naming the real problem residents of {town} face — slow, capped, or unreliable internet from rural providers like Viasat, HughesNet, or fixed wireless — before introducing Starlink as the fix. Mention {town} and {county} by name. Do not assume the reader already knows what Starlink is or how it differs from satellite internet they may have tried before (briefly imply it's not the same as old satellite internet — no harsh data caps, much faster speeds).
 5. A section header introducing the services list (vary this — do NOT always write "Our Services" or "Premium Services", make it specific to {town} or the service mix, e.g. "How We Help {town} Homeowners Stay Connected")
 6. A 1-sentence transition into the services list
-7. Exactly 3 FAQ question-and-answer pairs that a real local customer in {town} would search for or ask an AI assistant, naturally incorporating {town} and/or {county} into at least one question or answer. Base answers only on the real services listed above — do not invent guarantees, pricing, or turnaround times not implied by the service descriptions. Questions should sound like real voice-search or AI-assistant queries (e.g. "Does anyone install Starlink near {town}?" style phrasing), not generic FAQ boilerplate.
+7. Exactly 4 FAQ question-and-answer pairs that a real local customer in {town} would search for or ask an AI assistant, naturally incorporating {town} and/or {county} into at least one question or answer. Base answers only on the real services listed above — do not invent guarantees, pricing, or turnaround times not implied by the service descriptions. Questions should sound like real voice-search or AI-assistant queries, not generic FAQ boilerplate. At least one of the 4 FAQs MUST directly compare Starlink to Viasat and/or HughesNet (e.g. a question like "Is Starlink better than Viasat in {county}?" or "Why switch from HughesNet to Starlink in {town}?"), with an answer that names the specific advantage (no hard data caps, lower latency for video calls/streaming/gaming, faster installation) without disparaging the competitor by name beyond factual comparison.
 
 Respond ONLY with valid JSON in this exact shape, no markdown fences, no commentary:
 {{"title": "...", "meta_description": "...", "h1": "...", "intro": "...", "services_header": "...", "services_intro": "...", "faqs": [{{"q": "...", "a": "..."}}, {{"q": "...", "a": "..."}}, {{"q": "...", "a": "..."}}]}}
@@ -125,16 +125,20 @@ def fallback_copy(town, state, county, services_subset):
     top_service = services_subset[0]["name"] if services_subset else "Starlink installation"
     second_service = services_subset[1]["name"] if len(services_subset) > 1 else "smart home setup"
     return {
-        "title": f"Starlink & Handyman Services in {town}, {state}",
-        "meta_description": f"Certified Starlink installation, smart home setup, networking, and electrical services in {town}, {state} ({county}). Call or text {PHONE}.",
-        "h1": f"Starlink Installation & Technical Services Serving {town}, {state}",
-        "intro": f"{BUSINESS_NAME} proudly serves {town}, {state} and all of {county} with certified Starlink installation, smart home setup, networking, and electrical work. Based in {BASE_CITY}, Dean brings honest, technical expertise to every job.",
+        "title": f"Starlink Installation in {town}, {state} | Ditch Viasat & HughesNet",
+        "meta_description": f"Tired of slow Viasat or HughesNet in {town}, {state}? Certified Starlink installation, smart home setup, networking, and electrical services in {county}. Call {PHONE}.",
+        "h1": f"Starlink Installation Serving {town}, {state} — A Real Upgrade From Viasat & HughesNet",
+        "intro": f"If you're stuck with slow speeds, data caps, or high latency from Viasat or HughesNet in {town}, {state}, you have a better option. {BUSINESS_NAME} provides certified Starlink installation throughout {town} and all of {county}, plus smart home setup, networking, and electrical work. Based in {BASE_CITY}, Dean brings honest, technical expertise to every job.",
         "services_header": f"How {BUSINESS_NAME} Helps {town} Stay Connected",
         "services_intro": f"Here's what {BUSINESS_NAME} offers homeowners and businesses in {town}:",
         "faqs": [
             {
                 "q": f"Does anyone install Starlink near {town}, {state}?",
                 "a": f"Yes — {BUSINESS_NAME} provides certified Starlink installation throughout {town} and the rest of {county}, including dish mounting, cable routing, and Wi-Fi optimization.",
+            },
+            {
+                "q": f"Is Starlink better than Viasat or HughesNet in {county}?",
+                "a": f"For most homes in {county}, yes. Starlink doesn't carry the hard data caps that Viasat and HughesNet plans typically impose, and latency is low enough for video calls, streaming, and gaming — something traditional geostationary satellite internet struggles with.",
             },
             {
                 "q": f"Who offers {top_service} in {county}?",
@@ -515,7 +519,7 @@ li{{border-bottom:1px solid #eee;padding:0.5rem 0;}}
 </head>
 <body>
 <h1>{BUSINESS_NAME} \u2014 Service Areas</h1>
-<p>{len(published)} of 45 service-area pages published so far.</p>
+<p>{len(published)} of {len(towns)} service-area pages published so far.</p>
 <ul>
 {items}
 </ul>
