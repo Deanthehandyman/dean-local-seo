@@ -227,97 +227,113 @@
     "town": "Magnolia",
     "state": "AR",
     "slug": "magnolia-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:31.652483+00:00"
   },
   {
     "town": "Hot Springs",
     "state": "AR",
     "slug": "hot-springs-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:32.908730+00:00"
   },
   {
     "town": "Ashdown",
     "state": "AR",
     "slug": "ashdown-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:34.136121+00:00"
   },
   {
     "town": "Shreveport",
     "state": "LA",
     "slug": "shreveport-la",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:35.557805+00:00"
   },
   {
     "town": "Bossier City",
     "state": "LA",
     "slug": "bossier-city-la",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:36.843130+00:00"
   },
   {
     "town": "Minden",
     "state": "LA",
     "slug": "minden-la",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:38.157405+00:00"
   },
   {
     "town": "Mansfield",
     "state": "LA",
     "slug": "mansfield-la",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:39.918624+00:00"
   },
   {
     "town": "Many",
     "state": "LA",
     "slug": "many-la",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:41.361632+00:00"
   },
   {
     "town": "Idabel",
     "state": "OK",
     "slug": "idabel-ok",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:42.919366+00:00"
   },
   {
     "town": "Broken Bow",
     "state": "OK",
     "slug": "broken-bow-ok",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:44.327615+00:00"
   },
   {
     "town": "Hugo",
     "state": "OK",
     "slug": "hugo-ok",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:44.362323+00:00"
   },
   {
     "town": "Antlers",
     "state": "OK",
     "slug": "antlers-ok",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:44.394835+00:00"
   },
   {
     "town": "Durant",
     "state": "OK",
     "slug": "durant-ok",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:44.431411+00:00"
   },
   {
     "town": "Cookville",
     "state": "TX",
     "slug": "cookville-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:44.511949+00:00"
   },
   {
     "town": "Omaha",
     "state": "TX",
     "slug": "omaha-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:44.586173+00:00"
   },
   {
     "town": "Naples",
     "state": "TX",
     "slug": "naples-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T05:27:44.654807+00:00"
   },
   {
     "town": "Avinger",
