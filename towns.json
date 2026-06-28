@@ -157,133 +157,155 @@
     "town": "Paris",
     "state": "TX",
     "slug": "paris-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:01.753198+00:00"
   },
   {
     "town": "Commerce",
     "state": "TX",
     "slug": "commerce-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:01.805540+00:00"
   },
   {
     "town": "Greenville",
     "state": "TX",
     "slug": "greenville-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:01.857859+00:00"
   },
   {
     "town": "Canton",
     "state": "TX",
     "slug": "canton-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:01.903600+00:00"
   },
   {
     "town": "Athens",
     "state": "TX",
     "slug": "athens-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:01.957012+00:00"
   },
   {
     "town": "Carthage",
     "state": "TX",
     "slug": "carthage-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.002900+00:00"
   },
   {
     "town": "Center",
     "state": "TX",
     "slug": "center-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.051068+00:00"
   },
   {
     "town": "Nacogdoches",
     "state": "TX",
     "slug": "nacogdoches-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.102468+00:00"
   },
   {
     "town": "Texarkana",
     "state": "AR",
     "slug": "texarkana-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.147005+00:00"
   },
   {
     "town": "Hope",
     "state": "AR",
     "slug": "hope-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.191159+00:00"
   },
   {
     "town": "Magnolia",
     "state": "AR",
     "slug": "magnolia-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.238781+00:00"
   },
   {
     "town": "Hot Springs",
     "state": "AR",
     "slug": "hot-springs-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.287263+00:00"
   },
   {
     "town": "Ashdown",
     "state": "AR",
     "slug": "ashdown-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.335514+00:00"
   },
   {
     "town": "Shreveport",
     "state": "LA",
     "slug": "shreveport-la",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.386628+00:00"
   },
   {
     "town": "Bossier City",
     "state": "LA",
     "slug": "bossier-city-la",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.441032+00:00"
   },
   {
     "town": "Minden",
     "state": "LA",
     "slug": "minden-la",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.487042+00:00"
   },
   {
     "town": "Mansfield",
     "state": "LA",
     "slug": "mansfield-la",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.535729+00:00"
   },
   {
     "town": "Many",
     "state": "LA",
     "slug": "many-la",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.583583+00:00"
   },
   {
     "town": "Idabel",
     "state": "OK",
     "slug": "idabel-ok",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.628692+00:00"
   },
   {
     "town": "Broken Bow",
     "state": "OK",
     "slug": "broken-bow-ok",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.805740+00:00"
   },
   {
     "town": "Hugo",
     "state": "OK",
     "slug": "hugo-ok",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.858758+00:00"
   },
   {
     "town": "Antlers",
     "state": "OK",
     "slug": "antlers-ok",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-28T15:03:02.905943+00:00"
   },
   {
     "town": "Durant",
