@@ -32,6 +32,7 @@ def main():
             services = json.load(f)
         url_list.append(f"{SITE_URL}/services/")
         url_list.extend(f"{SITE_URL}/services/{s['slug']}/" for s in services)
+    url_list.append(f"{SITE_URL}/starlink-referral/")
 
     if not url_list:
         print("Nothing published yet, skipping IndexNow ping.")
