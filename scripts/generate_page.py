@@ -69,7 +69,7 @@ def call_groq(town, state, county, services_subset):
 
     prompt = f"""You are writing a local service-area landing page for {BUSINESS_NAME}, a real handyman/technical installation business based in {BASE_CITY}. The business is run by Dean, a certified Starlink installer who specializes in Starlink installation, smart home tech, networking, electrical work, and RV tech support.
 
-Write landing page copy for the town of {town}, {state} (located in {county}). Use ONLY the real services listed below Ã¢ÂÂ do not invent services, prices, or guarantees not implied by the descriptions.
+Write landing page copy for the town of {town}, {state} (located in {county}). Use ONLY the real services listed below &mdash; do not invent services, prices, or guarantees not implied by the descriptions.
 
 REAL SERVICES OFFERED (use these, in your own words, do not copy verbatim):
 {service_list_str}
@@ -79,10 +79,10 @@ Write the following, each genuinely unique to {town} (not generic boilerplate th
 1. A page title (under 60 characters, must include "{town}" and a core service like Starlink or handyman)
 2. A meta description (under 155 characters)
 3. An H1 headline (different phrasing than the title)
-4. A 2-3 sentence intro paragraph that opens by naming the real problem residents of {town} face Ã¢ÂÂ slow, capped, or unreliable internet from rural providers like Viasat, HughesNet, or fixed wireless Ã¢ÂÂ before introducing Starlink as the fix. Mention {town} and {county} by name. Do not assume the reader already knows what Starlink is or how it differs from satellite internet they may have tried before (briefly imply it's not the same as old satellite internet Ã¢ÂÂ no harsh data caps, much faster speeds).
-5. A section header introducing the services list (vary this Ã¢ÂÂ do NOT always write "Our Services" or "Premium Services", make it specific to {town} or the service mix, e.g. "How We Help {town} Homeowners Stay Connected")
+4. A 2-3 sentence intro paragraph that opens by naming the real problem residents of {town} face &mdash; slow, capped, or unreliable internet from rural providers like Viasat, HughesNet, or fixed wireless &mdash; before introducing Starlink as the fix. Mention {town} and {county} by name. Do not assume the reader already knows what Starlink is or how it differs from satellite internet they may have tried before (briefly imply it's not the same as old satellite internet &mdash; no harsh data caps, much faster speeds).
+5. A section header introducing the services list (vary this &mdash; do NOT always write "Our Services" or "Premium Services", make it specific to {town} or the service mix, e.g. "How We Help {town} Homeowners Stay Connected")
 6. A 1-sentence transition into the services list
-7. Exactly 4 FAQ question-and-answer pairs that a real local customer in {town} would search for or ask an AI assistant, naturally incorporating {town} and/or {county} into at least one question or answer. Base answers only on the real services listed above Ã¢ÂÂ do not invent guarantees, pricing, or turnaround times not implied by the service descriptions. Questions should sound like real voice-search or AI-assistant queries, not generic FAQ boilerplate. At least one of the 4 FAQs MUST directly compare Starlink to Viasat and/or HughesNet (e.g. a question like "Is Starlink better than Viasat in {county}?" or "Why switch from HughesNet to Starlink in {town}?"), with an answer that names the specific advantage (no hard data caps, lower latency for video calls/streaming/gaming, faster installation) without disparaging the competitor by name beyond factual comparison.
+7. Exactly 4 FAQ question-and-answer pairs that a real local customer in {town} would search for or ask an AI assistant, naturally incorporating {town} and/or {county} into at least one question or answer. Base answers only on the real services listed above &mdash; do not invent guarantees, pricing, or turnaround times not implied by the service descriptions. Questions should sound like real voice-search or AI-assistant queries, not generic FAQ boilerplate. At least one of the 4 FAQs MUST directly compare Starlink to Viasat and/or HughesNet (e.g. a question like "Is Starlink better than Viasat in {county}?" or "Why switch from HughesNet to Starlink in {town}?"), with an answer that names the specific advantage (no hard data caps, lower latency for video calls/streaming/gaming, faster installation) without disparaging the competitor by name beyond factual comparison.
 
 Respond ONLY with valid JSON in this exact shape, no markdown fences, no commentary:
 {{"title": "...", "meta_description": "...", "h1": "...", "intro": "...", "services_header": "...", "services_intro": "...", "faqs": [{{"q": "...", "a": "..."}}, {{"q": "...", "a": "..."}}, {{"q": "...", "a": "..."}}]}}
@@ -137,18 +137,18 @@ def fallback_copy(town, state, county, services_subset):
     return {
         "title": f"Starlink Installation in {town}, {state} | Ditch Viasat & HughesNet",
         "meta_description": f"Tired of slow Viasat or HughesNet in {town}, {state}? Certified Starlink installation, smart home setup, networking, and electrical services in {county}. Call {PHONE}.",
-        "h1": f"Starlink Installation Serving {town}, {state} Ã¢ÂÂ A Real Upgrade From Viasat & HughesNet",
+        "h1": f"Starlink Installation Serving {town}, {state} &mdash; A Real Upgrade From Viasat & HughesNet",
         "intro": f"If you're stuck with slow speeds, data caps, or high latency from Viasat or HughesNet in {town}, {state}, you have a better option. {BUSINESS_NAME} provides certified Starlink installation throughout {town} and all of {county}, plus smart home setup, networking, and electrical work. Based in {BASE_CITY}, Dean brings honest, technical expertise to every job.",
         "services_header": f"How {BUSINESS_NAME} Helps {town} Stay Connected",
         "services_intro": f"Here's what {BUSINESS_NAME} offers homeowners and businesses in {town}:",
         "faqs": [
             {
                 "q": f"Does anyone install Starlink near {town}, {state}?",
-                "a": f"Yes Ã¢ÂÂ {BUSINESS_NAME} provides certified Starlink installation throughout {town} and the rest of {county}, including dish mounting, cable routing, and Wi-Fi optimization.",
+                "a": f"Yes &mdash; {BUSINESS_NAME} provides certified Starlink installation throughout {town} and the rest of {county}, including dish mounting, cable routing, and Wi-Fi optimization.",
             },
             {
                 "q": f"Is Starlink better than Viasat or HughesNet in {county}?",
-                "a": f"For most homes in {county}, yes. Starlink doesn't carry the hard data caps that Viasat and HughesNet plans typically impose, and latency is low enough for video calls, streaming, and gaming Ã¢ÂÂ something traditional geostationary satellite internet struggles with.",
+                "a": f"For most homes in {county}, yes. Starlink doesn't carry the hard data caps that Viasat and HughesNet plans typically impose, and latency is low enough for video calls, streaming, and gaming &mdash; something traditional geostationary satellite internet struggles with.",
             },
             {
                 "q": f"Who offers {top_service} in {county}?",
@@ -495,8 +495,8 @@ def render_html(town, state, county, lat, lng, slug, copy, services_subset):
 
 <div class="referral-block">
   <h2>Get a Free Month of Starlink</h2>
-  <p>New Starlink customer? Use my referral link when you sign up and <strong>get one free month</strong> â no extra cost to you.</p>
-  <a class="btn-referral" href="{STARLINK_REFERRAL_URL}" target="_blank" rel="noopener">Claim Your Free Month â</a>
+  <p>New Starlink customer? Use my referral link when you sign up and <strong>get one free month</strong> &mdash; no extra cost to you.</p>
+  <a class="btn-referral" href="{STARLINK_REFERRAL_URL}" target="_blank" rel="noopener">Claim Your Free Month &rarr;</a>
 </div>
 
 <div class="cta-section">
@@ -523,7 +523,7 @@ def regenerate_sitemap(towns):
         f"  <url><loc>{u}</loc><lastmod>{now}</lastmod></url>" for u in urls
     )
     xml = f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{body}\n</urlset>\n'
-    with open(ROOT / "sitemap.xml", "w") as f:
+    with open(ROOT / "sitemap.xml", "w", encoding="utf-8") as f:
         f.write(xml)
 
 
@@ -589,7 +589,7 @@ li{{border-bottom:1px solid #eee;padding:0.5rem 0;}}
 </body>
 </html>
 """
-    with open(ROOT / "index.html", "w") as f:
+    with open(ROOT / "index.html", "w", encoding="utf-8") as f:
         f.write(html)
 
 
@@ -620,7 +620,7 @@ def main():
 
         page_dir = LOCATIONS_DIR / slug
         page_dir.mkdir(parents=True, exist_ok=True)
-        with open(page_dir / "index.html", "w") as f:
+        with open(page_dir / "index.html", "w", encoding="utf-8") as f:
             f.write(html)
 
         town_entry["published"] = True
