@@ -40,6 +40,7 @@ CATEGORY_ORDER = [
     "RV Services",
     "General Services",
 ]
+STARLINK_REFERRAL_URL = "https://www.starlink.com/residential?referral=RC-2034578-19016-61"
 
 
 def load_json(path):
@@ -104,6 +105,19 @@ def meta_description_from(desc, name):
     return candidate or f"{name} from {BUSINESS_NAME}. Call {PHONE}."
 
 
+
+
+def should_show_referral(service):
+    """Return True for Starlink/connectivity services that show the referral callout."""
+    REFERRAL_SLUGS = {
+        "starlink-installation",
+        "ground-pole-mount",
+        "virtual-consultation",
+        "rv-connectivity-bundle",
+    }
+    return service.get("slug", "") in REFERRAL_SLUGS
+
+
 def render_service_html(service, related):
     name = service["name"]
     slug = service["slug"]
@@ -136,6 +150,19 @@ def render_service_html(service, related):
 {related_items}
   </ul>
 </div>"""
+
+    referral_html = ""
+    if should_show_referral(service):
+        referral_html = (
+            '<div class="referral-block">\n'
+            '  <h2>Get a Free Month of Starlink</h2>\n'
+            '  <p>New Starlink customer? Use my referral link when you sign up and '
+            '<strong>get one free month</strong> \u2014 no extra cost to you.</p>\n'
+            f'  <a class="btn-referral" href="{STARLINK_REFERRAL_URL}" '
+            'target="_blank" rel="noopener">Claim Your Free Month \u2192</a>\n'
+            '</div>'
+        )
+
 
     service_schema = f"""{{
   "@context": "https://schema.org",
@@ -411,6 +438,7 @@ def render_service_html(service, related):
 <div class="content-section">
 {desc_html}
 </div>
+{referral_html}
 
 <div class="cta-section">
   <h2>Ready to get started?</h2>
@@ -552,7 +580,40 @@ def render_directory_html(services_by_category):
     margin-top: 2rem;
   }}
   footer .phone {{ color: #0019ff; font-weight: 600; text-decoration: none; }}
-</style>
+
+  .referral-block {
+    max-width: 720px;
+    margin: 0 auto 2rem;
+    padding: 1.5rem;
+    background: #e8f4fd;
+    border: 2px solid #0099ff;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .referral-block h2 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #003d7a;
+    margin: 0 0 0.75rem;
+  }
+  .referral-block p {
+    color: #333;
+    margin: 0 0 1rem;
+    font-size: 0.95rem;
+  }
+  .referral-block .btn-referral {
+    display: inline-block;
+    background: #0099ff;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .referral-block .btn-referral:hover {
+    background: #0077cc;
+  }</style>
 </head>
 <body>
 <div class="topbar">
