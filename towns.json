@@ -927,133 +927,155 @@
     "town": "Diana",
     "state": "TX",
     "slug": "diana-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:04.924291+00:00"
   },
   {
     "town": "Ore City",
     "state": "TX",
     "slug": "ore-city-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:06.608872+00:00"
   },
   {
     "town": "East Mountain",
     "state": "TX",
     "slug": "east-mountain-tx",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:08.060621+00:00"
   },
   {
     "town": "Fouke",
     "state": "AR",
     "slug": "fouke-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:09.521069+00:00"
   },
   {
     "town": "Genoa",
     "state": "AR",
     "slug": "genoa-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:11.020999+00:00"
   },
   {
     "town": "Garland City",
     "state": "AR",
     "slug": "garland-city-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:12.460316+00:00"
   },
   {
     "town": "Lewisville",
     "state": "AR",
     "slug": "lewisville-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:12.544758+00:00"
   },
   {
     "town": "Stamps",
     "state": "AR",
     "slug": "stamps-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:12.622748+00:00"
   },
   {
     "town": "Bradley",
     "state": "AR",
     "slug": "bradley-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:12.724679+00:00"
   },
   {
     "town": "Buckner",
     "state": "AR",
     "slug": "buckner-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:12.820305+00:00"
   },
   {
     "town": "Waldo",
     "state": "AR",
     "slug": "waldo-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:12.910425+00:00"
   },
   {
     "town": "Emerson",
     "state": "AR",
     "slug": "emerson-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:13.007449+00:00"
   },
   {
     "town": "El Dorado",
     "state": "AR",
     "slug": "el-dorado-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:13.100615+00:00"
   },
   {
     "town": "Camden",
     "state": "AR",
     "slug": "camden-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:13.205493+00:00"
   },
   {
     "town": "Prescott",
     "state": "AR",
     "slug": "prescott-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:13.293441+00:00"
   },
   {
     "town": "Nashville",
     "state": "AR",
     "slug": "nashville-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:13.404487+00:00"
   },
   {
     "town": "Mineral Springs",
     "state": "AR",
     "slug": "mineral-springs-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:13.481410+00:00"
   },
   {
     "town": "Dierks",
     "state": "AR",
     "slug": "dierks-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:13.581893+00:00"
   },
   {
     "town": "De Queen",
     "state": "AR",
     "slug": "de-queen-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:13.668802+00:00"
   },
   {
     "town": "Lockesburg",
     "state": "AR",
     "slug": "lockesburg-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:13.748463+00:00"
   },
   {
     "town": "Foreman",
     "state": "AR",
     "slug": "foreman-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:13.842796+00:00"
   },
   {
     "town": "Wilton",
     "state": "AR",
     "slug": "wilton-ar",
-    "published": false
+    "published": true,
+    "published_at": "2026-06-29T16:40:13.930481+00:00"
   },
   {
     "town": "Vivian",
